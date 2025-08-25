@@ -206,11 +206,15 @@ class TaskRunner:
                    for setting up and running the PPO training process.
         """
         # Print the initial configuration. `resolve=True` will evaluate symbolic values.
+        from debug import debugger
         from pprint import pprint
 
         from omegaconf import OmegaConf
 
         from verl.utils.fs import copy_to_local
+
+        debugger(debug=True)
+
 
         print(f"TaskRunner hostname: {socket.gethostname()}, PID: {os.getpid()}")
         pprint(OmegaConf.to_container(config, resolve=True))

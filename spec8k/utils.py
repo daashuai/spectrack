@@ -875,7 +875,8 @@ def calculate_similarity(peaks_1, points_matrix_1, peaks_2, points_matrix_2, top
     if percent < 0:
         percent = 0
 
-    info = f"{round(temp, 2)}({round(percent, 2)}%)"
+    # info = f"{round(temp, 2)}({round(percent, 2)}%)"
 
-    return float(temp), info
+    # return float(temp), info
+    return round(percent, 2)
 

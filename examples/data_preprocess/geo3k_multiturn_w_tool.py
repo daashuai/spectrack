@@ -25,6 +25,8 @@ import os
 import datasets
 
 from verl.utils.hdfs_io import copy, makedirs
+from debug import debugger
+debugger(debug=True)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
