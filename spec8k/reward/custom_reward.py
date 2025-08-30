@@ -61,10 +61,15 @@ def accuracy_reward(
             target = float(target)
         diff = abs(pred - target)
         if method == "inverse_abs":
-            if diff > 10:
-                reward = -0.01*diff
+            # if diff > 10:
+            #     reward = -0.01*diff
+            # else:
+            #     reward = 1 / (diff + epsilon)
+            if diff < 2:
+                reward = 1
             else:
-                reward = 1 / (diff + epsilon)
+                reward = -0.01*diff
+
         elif method == "negative_mse":
             reward = -(diff**2)
         elif method == "exp_decay":
