@@ -52,6 +52,7 @@ def accuracy_reward(
     返回：
     - reward: 数值，差距越小reward越大
     """
+    acc = 0
     try:
         # pred = extract_answer(pred) if isinstance(pred, str) else target
         pred = extract_answer(pred)
@@ -67,6 +68,7 @@ def accuracy_reward(
             #     reward = 1 / (diff + epsilon)
             if diff < 2:
                 reward = 1
+                acc = 1
             else:
                 reward = -0.01*diff
 
@@ -79,10 +81,10 @@ def accuracy_reward(
         else:
             raise ValueError(f"Unknown method: {method}")
 
-        return reward
+        return acc, reward
     except Exception as e:
         # print(f"Error in compute_reward: {e}", file=sys.stderr)
-        return -1.5
+        return acc, -1.5
 
 def compute_score(solution_str, ground_truth, method="strict", format_weight=0.1,
                   score=1.0, data_source=None, extra_info=None):
@@ -94,7 +96,7 @@ def compute_score(solution_str, ground_truth, method="strict", format_weight=0.1
     format_score = format_reward(solution_str)
     
     # 计算准确率分数
-    accuracy_score = accuracy_reward(solution_str, ground_truth)
+    acc, accuracy_score = accuracy_reward(solution_str, ground_truth)
     
     # 计算总分，使用format_weight作为格式分的权重
     # overall_score = (1 - format_weight) * accuracy_score + format_weight * format_score
@@ -105,8 +107,11 @@ def compute_score(solution_str, ground_truth, method="strict", format_weight=0.1
     #     return 0.0
     # if overall_score is None:
     #     return 0.0
+    metrics={}
+    metrics["score"] = accuracy_score
+    metrics["acc"] = acc
     
-    return accuracy_score
+    return metrics
 
 
 def compute_score_r1(reward_input: dict[str, Any], format_weight: float = 0.1) -> dict[str, float]:
@@ -117,7 +122,7 @@ def compute_score_r1(reward_input: dict[str, Any], format_weight: float = 0.1) -
         
 
     format_score = format_reward(reward_input["response"])
-    accuracy_score = accuracy_reward(reward_input["response"], reward_input["ground_truth"])
+    acc, accuracy_score = accuracy_reward(reward_input["response"], reward_input["ground_truth"])
     return {
         "overall": (1 - format_weight) * accuracy_score + format_weight * format_score,
         "format": format_score,

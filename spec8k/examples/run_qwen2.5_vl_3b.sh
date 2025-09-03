@@ -2,7 +2,7 @@ set -x
 ENGINE=${1:-vllm}
 HF_ENDPOINT="https://hf-mirror.com"
 PROJECT_DIR="/home/ludashuai/spectrack"
-export CUDA_VISIBLE_DEVICES=3,4,5,6
+export CUDA_VISIBLE_DEVICES=2,3,4,6
 # If you are using vllm<=0.6.3, you might need to set the following environment variable to avoid bugs:
 # export VLLM_ATTENTION_BACKEND=XFORMERS
 
