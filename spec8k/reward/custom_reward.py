@@ -53,6 +53,7 @@ def accuracy_reward(
     - reward: 数值，差距越小reward越大
     """
     diff = 0
+    acc_1 = 0
     acc_2 = 0
     acc_5 = 0
     try:
@@ -68,7 +69,9 @@ def accuracy_reward(
             #     reward = -0.01*diff
             # else:
             #     reward = 1 / (diff + epsilon)
-            if didd < 5:
+            if diff < 1:
+                acc_1 = 1
+            if diff < 5:
                 acc_5 = 1
 
             if diff < 2:
@@ -86,12 +89,12 @@ def accuracy_reward(
         else:
             raise ValueError(f"Unknown method: {method}")
 
-        return acc_2, acc_5, diff, reward
+        return acc_1, acc_2, acc_5, diff, reward
     except Exception as e:
         # print(f"Error in compute_reward: {e}", file=sys.stderr)
         target = float(target)
-        diff = 100 - target
-        return acc_2, acc_5, diff, -1.5
+        diff = abs(50-target)
+        return acc_1, acc_2, acc_5, diff, -1.5
 
 def compute_score(solution_str, ground_truth, method="strict", format_weight=0.1,
                   score=1.0, data_source=None, extra_info=None):
@@ -103,7 +106,7 @@ def compute_score(solution_str, ground_truth, method="strict", format_weight=0.1
     format_score = format_reward(solution_str)
     
     # 计算准确率分数
-    acc_2, acc_5, diff, accuracy_score = accuracy_reward(solution_str, ground_truth)
+    acc_1, acc_2, acc_5, diff, accuracy_score = accuracy_reward(solution_str, ground_truth)
     
     # 计算总分，使用format_weight作为格式分的权重
     # overall_score = (1 - format_weight) * accuracy_score + format_weight * format_score
@@ -116,6 +119,7 @@ def compute_score(solution_str, ground_truth, method="strict", format_weight=0.1
     #     return 0.0
     metrics={}
     metrics["score"] = accuracy_score
+    metrics["acc_1"] = acc_1
     metrics["acc_2"] = acc_2
     metrics["acc_5"] = acc_5
     metrics["diff"] = diff
