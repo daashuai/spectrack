@@ -15,7 +15,7 @@ from debug import debugger
 debugger(debug=False)
 
 def generate_parquet_dataset(
-    json_file_path="spec8k/data/metadata_rlhf.json",
+    json_file_path="spec1k/data/metadata_rlhf.json",
     train_ratio=0.8,
     val_ratio=0.1,
     test_ratio=0.1,
@@ -26,7 +26,7 @@ def generate_parquet_dataset(
     从 metadata.json（样本列表）和数据文件中生成 train/val/test 的 Parquet 数据集。
     每条记录包含 sample_id、similarity、peaks_dict_1、peaks_dict_2。
     """
-    output_dir = "spec8k/dataset/rlhf"
+    output_dir = "spec1k/dataset/rlhf"
     os.makedirs(output_dir, exist_ok=True)
 
     assert abs(train_ratio + val_ratio + test_ratio - 1.0) < 1e-6, "Split ratios must sum to 1.0"

@@ -12,10 +12,10 @@ import random
 import pandas as pd
 import numpy as np
 from debug import debugger
-debugger(debug=False)
+debugger(debug=True)
 
 def generate_parquet_dataset(
-    json_file_path="spec8k/data/metadata_sft.json",
+    json_file_path="spec1k/data/metadata_sft.json",
     train_ratio=0.8,
     val_ratio=0.1,
     test_ratio=0.1,
@@ -26,7 +26,7 @@ def generate_parquet_dataset(
     从 metadata.json（样本列表）和数据文件中生成 train/val/test 的 Parquet 数据集。
     每条记录包含 sample_id、similarity、peaks_dict_1、peaks_dict_2。
     """
-    output_dir = "spec8k/dataset/sft"
+    output_dir = "spec1k/dataset/sft"
     os.makedirs(output_dir, exist_ok=True)
 
     assert abs(train_ratio + val_ratio + test_ratio - 1.0) < 1e-6, "Split ratios must sum to 1.0"
@@ -61,9 +61,9 @@ def generate_parquet_dataset(
             try:
                 answer = entry["similarity"]
                 # 构造完整路径
-                file_path_1 = os.path.join("spec8k/data", entry["data_path_1"])
-                file_path_2 = os.path.join("spec8k/data", entry["data_path_2"])
-                expert_reason_chain = entryp["expert_reason_chain"]
+                file_path_1 = os.path.join("spec1k/data", entry["data_path_1"])
+                file_path_2 = os.path.join("spec1k/data", entry["data_path_2"])
+                expert_reason_chain = entry["expert_reason_chain"]
 
                 # 获取 peaks_dict_1 和 peaks_dict_2
                 
@@ -146,8 +146,6 @@ def generate_parquet_dataset(
 import argparse
 
 if __name__ == "__main__":
-    from debug import debugger
-    debugger(debug=False)
 
     template_0 = """你是三维荧光光谱相似度计算专家，需根据提供的视觉信息和峰值数据，
 修正规则相似度。我将给你两个水体样本的三维荧光光谱相关的数据,示例如下: 
@@ -268,5 +266,5 @@ if __name__ == "__main__":
                              template_1=template_1, template_2 = template_2)
 
 # change directory in root work directory
-# python -m spec8k.generate_dataset_sft
+# python -m spec1k.generate_dataset_sft
 

@@ -2,13 +2,8 @@
 
 set -x
 
-if [ "$#" -lt 2 ]; then
-    echo "Usage: run_qwen_05_peft.sh <nproc_per_node> <save_path> [other_configs...]"
-    exit 1
-fi
-
-nproc_per_node=$1
-save_path=$2
+nproc_per_node=4
+save_path="/home/ludashuai/spectrack/checkpoints/"
 
 # Shift the arguments so $@ refers to the rest
 shift 2
