@@ -95,10 +95,12 @@ def generate_parquet_dataset(
                 fig_path_1 = f"file://{fig_path_1}"
                 fig_path_2 = f"file://{fig_path_2}"
                 data_source = "daashuai/spec8k"
+                expert_reason_chain_new = ""
+                for key, value in expert_reason_chain.items():
+                    expert_reason_chain_new += key + ": "
+                    expert_reason_chain_new += value + "\n "
                 # 字典传递参数
                 params = {
-                    "fig_path_1": fig_path_1,
-                    "fig_path_2": fig_path_2,
                     "peaks_1": top_peaks_1,
                     "peaks_2": top_peaks_2,
                     "peaks_rule_1": peaks_list_rule_1,
@@ -109,29 +111,17 @@ def generate_parquet_dataset(
 
                 record = {
                     "data_source": data_source,
-                    "prompt": [
-                        {
-                            "role": "system",
-                            "content": template_1,
-                        },
-                        {
+                    "prompt": {
                             "role": "user",
-                            "content": template_2,
-                        }
-                    ],
-                    "images": [
-                        # {"image": "file:///home/ludashuai/spectrack/spec8k/data/fig/sample_11_data_1.png"},
-                        # {"image": "file:///home/ludashuai/spectrack/spec8k/data/fig/sample_11_data_2.png"},
-                        {"image": fig_path_1},
-                        {"image": fig_path_2}
-                    ],
+                            "content": template_1 + template_2,
+                    },
                     "ability": "spec",
-                    "expert_reason_chain": expert_reason_chain,
+                    "expert_reason_chain": expert_reason_chain_new,
                     "reward_model": {"style": "rule", "ground_truth": answer},
                     "extra_info": {
                         "sample_id": entry["sample_id"],
                     },
-                }
+               }
                 records.append(record)
 
             except Exception as e:
@@ -254,8 +244,7 @@ if __name__ == "__main__":
 """
 
 
-    template_2 = """输入:视觉信息: fig_right = <image>{fig_path_1} fig_left = <image>
-    {fig_path_2}初始峰值信息: peaks_right_origin = {peaks_1} peaks_left_origin
+    template_2 = """输入:初始峰值信息: peaks_right_origin = {peaks_1} peaks_left_origin
     = {peaks_2}规则峰值信息: peaks_right_rule = {peaks_rule_1} peaks_left_rule
     = {peaks_rule_2}规则相似度: rule_similarity = {similarity_rule}
 

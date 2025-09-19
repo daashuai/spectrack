@@ -14,7 +14,7 @@ python3 -m verl.trainer.main_ppo \
     data.max_prompt_length=3072\
     data.max_response_length=2048\
     data.filter_overlong_prompts=True \
-    data.truncation='error' \
+    data.truncation='right' \
     data.image_key=images \
     custom_reward_function.path=$PROJECT_DIR/spec8k/reward/custom_reward.py \
     custom_reward_function.name=compute_score \

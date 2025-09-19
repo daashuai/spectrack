@@ -184,7 +184,6 @@ class FSDPSFTTrainer:
             drop_last=True,
             pin_memory_device=device_name,
         )
-
         self.val_sampler = DistributedSampler(
             self.val_dataset, shuffle=False, num_replicas=world_size, rank=rank, drop_last=True
         )
