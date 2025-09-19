@@ -61,8 +61,8 @@ def generate_parquet_dataset(
             try:
                 answer = entry["similarity"]
                 # 构造完整路径
-                file_path_1 = os.path.join("spec8k/data", entry["data_path_1"])
-                file_path_2 = os.path.join("spec8k/data", entry["data_path_2"])
+                file_path_1 = os.path.join("spec1k/data", entry["data_path_1"])
+                file_path_2 = os.path.join("spec1k/data", entry["data_path_2"])
 
                 # 获取 peaks_dict_1 和 peaks_dict_2
                 
@@ -93,7 +93,7 @@ def generate_parquet_dataset(
                 fig_path_2 = plot(file_path_2, points_matrix_2, peaks_list_rule_2)
                 fig_path_1 = f"file://{fig_path_1}"
                 fig_path_2 = f"file://{fig_path_2}"
-                data_source = "daashuai/spec8k"
+                data_source = "daashuai/spec1k"
                 # 字典传递参数
                 params = {
                     "fig_path_1": fig_path_1,
@@ -150,8 +150,8 @@ if __name__ == "__main__":
     template_0 = """你是三维荧光光谱相似度计算专家，需根据提供的视觉信息和峰值数据，
 修正规则相似度。我将给你两个水体样本的三维荧光光谱相关的数据,示例如下: 
 视觉信息:
-    fig_right : <image>file:///home/ludashuai/spectrack/spec8k/data/fig/sample_11_data_1.png 
-    fig_left: <image>file:///home/ludashuai/spectrack/spec8k/data/fig/sample_11_data_2.png
+    fig_right : <image>file:///home/ludashuai/spectrack/spec1k/data/fig/sample_11_data_1.png 
+    fig_left: <image>file:///home/ludashuai/spectrack/spec1k/data/fig/sample_11_data_2.png
 初始峰值信息: -> [ex, em, height] 
     peaks_right_origin = [[230.0, 345.0, 1551.0], [240.0,265.0, 416.6], [240.0,
     525.0, 249.6], [245.0, 270.0, 478.3], [245.0, 535.0, 211.8], [250.0, 275.0,
@@ -255,5 +255,5 @@ if __name__ == "__main__":
                              template_1=template_1, template_2 = template_2)
 
 # change directory in root work directory
-# python -m spec8k.generate_dataset
+# python -m spec1k.generate_dataset_rlhf
 
