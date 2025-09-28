@@ -1,0 +1,2954 @@
+[
+    {
+        "sample_id": "10",
+        "data_path_1": "sample_10_data_1.txt",
+        "data_path_2": "sample_10_data_2.txt",
+        "similarity": 89.25
+    },
+    {
+        "sample_id": "11",
+        "data_path_1": "sample_11_data_1.txt",
+        "data_path_2": "sample_11_data_2.txt",
+        "similarity": 89.51
+    },
+    {
+        "sample_id": "12",
+        "data_path_1": "sample_12_data_1.txt",
+        "data_path_2": "sample_12_data_2.txt",
+        "similarity": 88.72
+    },
+    {
+        "sample_id": "13",
+        "data_path_1": "sample_13_data_1.txt",
+        "data_path_2": "sample_13_data_2.txt",
+        "similarity": 72.75
+    },
+    {
+        "sample_id": "14",
+        "data_path_1": "sample_14_data_1.txt",
+        "data_path_2": "sample_14_data_2.txt",
+        "similarity": 97.7
+    },
+    {
+        "sample_id": "15",
+        "data_path_1": "sample_15_data_1.txt",
+        "data_path_2": "sample_15_data_2.txt",
+        "similarity": 34.92
+    },
+    {
+        "sample_id": "16",
+        "data_path_1": "sample_16_data_1.txt",
+        "data_path_2": "sample_16_data_2.txt",
+        "similarity": 62.64
+    },
+    {
+        "sample_id": "17",
+        "data_path_1": "sample_17_data_1.txt",
+        "data_path_2": "sample_17_data_2.txt",
+        "similarity": 83.37
+    },
+    {
+        "sample_id": "18",
+        "data_path_1": "sample_18_data_1.txt",
+        "data_path_2": "sample_18_data_2.txt",
+        "similarity": 81.99
+    },
+    {
+        "sample_id": "19",
+        "data_path_1": "sample_19_data_1.txt",
+        "data_path_2": "sample_19_data_2.txt",
+        "similarity": 53.39
+    },
+    {
+        "sample_id": "20",
+        "data_path_1": "sample_20_data_1.txt",
+        "data_path_2": "sample_20_data_2.txt",
+        "similarity": 53.66
+    },
+    {
+        "sample_id": "21",
+        "data_path_1": "sample_21_data_1.txt",
+        "data_path_2": "sample_21_data_2.txt",
+        "similarity": 97.7
+    },
+    {
+        "sample_id": "22",
+        "data_path_1": "sample_22_data_1.txt",
+        "data_path_2": "sample_22_data_2.txt",
+        "similarity": 97.7
+    },
+    {
+        "sample_id": "23",
+        "data_path_1": "sample_23_data_1.txt",
+        "data_path_2": "sample_23_data_2.txt",
+        "similarity": 99.48
+    },
+    {
+        "sample_id": "24",
+        "data_path_1": "sample_24_data_1.txt",
+        "data_path_2": "sample_24_data_2.txt",
+        "similarity": 99.06
+    },
+    {
+        "sample_id": "25",
+        "data_path_1": "sample_25_data_1.txt",
+        "data_path_2": "sample_25_data_2.txt",
+        "similarity": 87.73
+    },
+    {
+        "sample_id": "26",
+        "data_path_1": "sample_26_data_1.txt",
+        "data_path_2": "sample_26_data_2.txt",
+        "similarity": 85.32
+    },
+    {
+        "sample_id": "27",
+        "data_path_1": "sample_27_data_1.txt",
+        "data_path_2": "sample_27_data_2.txt",
+        "similarity": 74.99
+    },
+    {
+        "sample_id": "28",
+        "data_path_1": "sample_28_data_1.txt",
+        "data_path_2": "sample_28_data_2.txt",
+        "similarity": 74.12
+    },
+    {
+        "sample_id": "29",
+        "data_path_1": "sample_29_data_1.txt",
+        "data_path_2": "sample_29_data_2.txt",
+        "similarity": 64.0
+    },
+    {
+        "sample_id": "30",
+        "data_path_1": "sample_30_data_1.txt",
+        "data_path_2": "sample_30_data_2.txt",
+        "similarity": 59.0
+    },
+    {
+        "sample_id": "31",
+        "data_path_1": "sample_31_data_1.txt",
+        "data_path_2": "sample_31_data_2.txt",
+        "similarity": 56.0
+    },
+    {
+        "sample_id": "32",
+        "data_path_1": "sample_32_data_1.txt",
+        "data_path_2": "sample_32_data_2.txt",
+        "similarity": 50.97
+    },
+    {
+        "sample_id": "33",
+        "data_path_1": "sample_33_data_1.txt",
+        "data_path_2": "sample_33_data_2.txt",
+        "similarity": 50.29
+    },
+    {
+        "sample_id": "34",
+        "data_path_1": "sample_34_data_1.txt",
+        "data_path_2": "sample_34_data_2.txt",
+        "similarity": 46.9
+    },
+    {
+        "sample_id": "35",
+        "data_path_1": "sample_35_data_1.txt",
+        "data_path_2": "sample_35_data_2.txt",
+        "similarity": 42.81
+    },
+    {
+        "sample_id": "36",
+        "data_path_1": "sample_36_data_1.txt",
+        "data_path_2": "sample_36_data_2.txt",
+        "similarity": 31.64
+    },
+    {
+        "sample_id": "37",
+        "data_path_1": "sample_37_data_1.txt",
+        "data_path_2": "sample_37_data_2.txt",
+        "similarity": 27.42
+    },
+    {
+        "sample_id": "38",
+        "data_path_1": "sample_38_data_1.txt",
+        "data_path_2": "sample_38_data_2.txt",
+        "similarity": 19.28
+    },
+    {
+        "sample_id": "39",
+        "data_path_1": "sample_39_data_1.txt",
+        "data_path_2": "sample_39_data_2.txt",
+        "similarity": 24.67
+    },
+    {
+        "sample_id": "40",
+        "data_path_1": "sample_40_data_1.txt",
+        "data_path_2": "sample_40_data_2.txt",
+        "similarity": 12.04
+    },
+    {
+        "sample_id": "41",
+        "data_path_1": "sample_41_data_1.txt",
+        "data_path_2": "sample_41_data_2.txt",
+        "similarity": 98.17
+    },
+    {
+        "sample_id": "42",
+        "data_path_1": "sample_42_data_1.txt",
+        "data_path_2": "sample_42_data_2.txt",
+        "similarity": 95.64
+    },
+    {
+        "sample_id": "43",
+        "data_path_1": "sample_43_data_1.txt",
+        "data_path_2": "sample_43_data_2.txt",
+        "similarity": 95.58
+    },
+    {
+        "sample_id": "44",
+        "data_path_1": "sample_44_data_1.txt",
+        "data_path_2": "sample_44_data_2.txt",
+        "similarity": 83.61
+    },
+    {
+        "sample_id": "45",
+        "data_path_1": "sample_45_data_1.txt",
+        "data_path_2": "sample_45_data_2.txt",
+        "similarity": 79.43
+    },
+    {
+        "sample_id": "46",
+        "data_path_1": "sample_46_data_1.txt",
+        "data_path_2": "sample_46_data_2.txt",
+        "similarity": 95.47
+    },
+    {
+        "sample_id": "47",
+        "data_path_1": "sample_47_data_1.txt",
+        "data_path_2": "sample_47_data_2.txt",
+        "similarity": 98.17
+    },
+    {
+        "sample_id": "48",
+        "data_path_1": "sample_48_data_1.txt",
+        "data_path_2": "sample_48_data_2.txt",
+        "similarity": 97.6
+    },
+    {
+        "sample_id": "49",
+        "data_path_1": "sample_49_data_1.txt",
+        "data_path_2": "sample_49_data_2.txt",
+        "similarity": 97.47
+    },
+    {
+        "sample_id": "50",
+        "data_path_1": "sample_50_data_1.txt",
+        "data_path_2": "sample_50_data_2.txt",
+        "similarity": 97.6
+    },
+    {
+        "sample_id": "51",
+        "data_path_1": "sample_51_data_1.txt",
+        "data_path_2": "sample_51_data_2.txt",
+        "similarity": 94.99
+    },
+    {
+        "sample_id": "52",
+        "data_path_1": "sample_52_data_1.txt",
+        "data_path_2": "sample_52_data_2.txt",
+        "similarity": 73.0
+    },
+    {
+        "sample_id": "53",
+        "data_path_1": "sample_53_data_1.txt",
+        "data_path_2": "sample_53_data_2.txt",
+        "similarity": 49.0
+    },
+    {
+        "sample_id": "54",
+        "data_path_1": "sample_54_data_1.txt",
+        "data_path_2": "sample_54_data_2.txt",
+        "similarity": 1.67
+    },
+    {
+        "sample_id": "55",
+        "data_path_1": "sample_55_data_1.txt",
+        "data_path_2": "sample_55_data_2.txt",
+        "similarity": 63.66
+    },
+    {
+        "sample_id": "56",
+        "data_path_1": "sample_56_data_1.txt",
+        "data_path_2": "sample_56_data_2.txt",
+        "similarity": 1.39
+    },
+    {
+        "sample_id": "57",
+        "data_path_1": "sample_57_data_1.txt",
+        "data_path_2": "sample_57_data_2.txt",
+        "similarity": 82.8
+    },
+    {
+        "sample_id": "58",
+        "data_path_1": "sample_58_data_1.txt",
+        "data_path_2": "sample_58_data_2.txt",
+        "similarity": 65.46
+    },
+    {
+        "sample_id": "59",
+        "data_path_1": "sample_59_data_1.txt",
+        "data_path_2": "sample_59_data_2.txt",
+        "similarity": 34.71
+    },
+    {
+        "sample_id": "60",
+        "data_path_1": "sample_60_data_1.txt",
+        "data_path_2": "sample_60_data_2.txt",
+        "similarity": 34.01
+    },
+    {
+        "sample_id": "61",
+        "data_path_1": "sample_61_data_1.txt",
+        "data_path_2": "sample_61_data_2.txt",
+        "similarity": 10.96
+    },
+    {
+        "sample_id": "62",
+        "data_path_1": "sample_62_data_1.txt",
+        "data_path_2": "sample_62_data_2.txt",
+        "similarity": 18.38
+    },
+    {
+        "sample_id": "63",
+        "data_path_1": "sample_63_data_1.txt",
+        "data_path_2": "sample_63_data_2.txt",
+        "similarity": 98.0
+    },
+    {
+        "sample_id": "64",
+        "data_path_1": "sample_64_data_1.txt",
+        "data_path_2": "sample_64_data_2.txt",
+        "similarity": 98.16
+    },
+    {
+        "sample_id": "65",
+        "data_path_1": "sample_65_data_1.txt",
+        "data_path_2": "sample_65_data_2.txt",
+        "similarity": 96.41
+    },
+    {
+        "sample_id": "66",
+        "data_path_1": "sample_66_data_1.txt",
+        "data_path_2": "sample_66_data_2.txt",
+        "similarity": 96.0
+    },
+    {
+        "sample_id": "67",
+        "data_path_1": "sample_67_data_1.txt",
+        "data_path_2": "sample_67_data_2.txt",
+        "similarity": 86.79
+    },
+    {
+        "sample_id": "68",
+        "data_path_1": "sample_68_data_1.txt",
+        "data_path_2": "sample_68_data_2.txt",
+        "similarity": 75.1
+    },
+    {
+        "sample_id": "69",
+        "data_path_1": "sample_69_data_1.txt",
+        "data_path_2": "sample_69_data_2.txt",
+        "similarity": 7.12
+    },
+    {
+        "sample_id": "70",
+        "data_path_1": "sample_70_data_1.txt",
+        "data_path_2": "sample_70_data_2.txt",
+        "similarity": 6.81
+    },
+    {
+        "sample_id": "71",
+        "data_path_1": "sample_71_data_1.txt",
+        "data_path_2": "sample_71_data_2.txt",
+        "similarity": 6.94
+    },
+    {
+        "sample_id": "72",
+        "data_path_1": "sample_72_data_1.txt",
+        "data_path_2": "sample_72_data_2.txt",
+        "similarity": 97.03
+    },
+    {
+        "sample_id": "73",
+        "data_path_1": "sample_73_data_1.txt",
+        "data_path_2": "sample_73_data_2.txt",
+        "similarity": 89.51
+    },
+    {
+        "sample_id": "74",
+        "data_path_1": "sample_74_data_1.txt",
+        "data_path_2": "sample_74_data_2.txt",
+        "similarity": 89.25
+    },
+    {
+        "sample_id": "75",
+        "data_path_1": "sample_75_data_1.txt",
+        "data_path_2": "sample_75_data_2.txt",
+        "similarity": 88.72
+    },
+    {
+        "sample_id": "76",
+        "data_path_1": "sample_76_data_1.txt",
+        "data_path_2": "sample_76_data_2.txt",
+        "similarity": 62.75
+    },
+    {
+        "sample_id": "77",
+        "data_path_1": "sample_77_data_1.txt",
+        "data_path_2": "sample_77_data_2.txt",
+        "similarity": 75.13
+    },
+    {
+        "sample_id": "78",
+        "data_path_1": "sample_78_data_1.txt",
+        "data_path_2": "sample_78_data_2.txt",
+        "similarity": 38.12
+    },
+    {
+        "sample_id": "79",
+        "data_path_1": "sample_79_data_1.txt",
+        "data_path_2": "sample_79_data_2.txt",
+        "similarity": 24.43
+    },
+    {
+        "sample_id": "80",
+        "data_path_1": "sample_80_data_1.txt",
+        "data_path_2": "sample_80_data_2.txt",
+        "similarity": 23.02
+    },
+    {
+        "sample_id": "81",
+        "data_path_1": "sample_81_data_1.txt",
+        "data_path_2": "sample_81_data_2.txt",
+        "similarity": 16.24
+    },
+    {
+        "sample_id": "82",
+        "data_path_1": "sample_82_data_1.txt",
+        "data_path_2": "sample_82_data_2.txt",
+        "similarity": 2.06
+    },
+    {
+        "sample_id": "83",
+        "data_path_1": "sample_83_data_1.txt",
+        "data_path_2": "sample_83_data_2.txt",
+        "similarity": 88.35
+    },
+    {
+        "sample_id": "84",
+        "data_path_1": "sample_84_data_1.txt",
+        "data_path_2": "sample_84_data_2.txt",
+        "similarity": 87.75
+    },
+    {
+        "sample_id": "85",
+        "data_path_1": "sample_85_data_1.txt",
+        "data_path_2": "sample_85_data_2.txt",
+        "similarity": 77.3
+    },
+    {
+        "sample_id": "86",
+        "data_path_1": "sample_86_data_1.txt",
+        "data_path_2": "sample_86_data_2.txt",
+        "similarity": 53.73
+    },
+    {
+        "sample_id": "87",
+        "data_path_1": "sample_87_data_1.txt",
+        "data_path_2": "sample_87_data_2.txt",
+        "similarity": 10.54
+    },
+    {
+        "sample_id": "88",
+        "data_path_1": "sample_88_data_1.txt",
+        "data_path_2": "sample_88_data_2.txt",
+        "similarity": 10.79
+    },
+    {
+        "sample_id": "89",
+        "data_path_1": "sample_89_data_1.txt",
+        "data_path_2": "sample_89_data_2.txt",
+        "similarity": 13.15
+    },
+    {
+        "sample_id": "90",
+        "data_path_1": "sample_90_data_1.txt",
+        "data_path_2": "sample_90_data_2.txt",
+        "similarity": 45.55
+    },
+    {
+        "sample_id": "91",
+        "data_path_1": "sample_91_data_1.txt",
+        "data_path_2": "sample_91_data_2.txt",
+        "similarity": 38.0
+    },
+    {
+        "sample_id": "92",
+        "data_path_1": "sample_92_data_1.txt",
+        "data_path_2": "sample_92_data_2.txt",
+        "similarity": 35.62
+    },
+    {
+        "sample_id": "93",
+        "data_path_1": "sample_93_data_1.txt",
+        "data_path_2": "sample_93_data_2.txt",
+        "similarity": 26.45
+    },
+    {
+        "sample_id": "94",
+        "data_path_1": "sample_94_data_1.txt",
+        "data_path_2": "sample_94_data_2.txt",
+        "similarity": 99.57
+    },
+    {
+        "sample_id": "95",
+        "data_path_1": "sample_95_data_1.txt",
+        "data_path_2": "sample_95_data_2.txt",
+        "similarity": 99.17
+    },
+    {
+        "sample_id": "96",
+        "data_path_1": "sample_96_data_1.txt",
+        "data_path_2": "sample_96_data_2.txt",
+        "similarity": 99.07
+    },
+    {
+        "sample_id": "97",
+        "data_path_1": "sample_97_data_1.txt",
+        "data_path_2": "sample_97_data_2.txt",
+        "similarity": 98.85
+    },
+    {
+        "sample_id": "98",
+        "data_path_1": "sample_98_data_1.txt",
+        "data_path_2": "sample_98_data_2.txt",
+        "similarity": 94.32
+    },
+    {
+        "sample_id": "99",
+        "data_path_1": "sample_99_data_1.txt",
+        "data_path_2": "sample_99_data_2.txt",
+        "similarity": 92.77
+    },
+    {
+        "sample_id": "100",
+        "data_path_1": "sample_100_data_1.txt",
+        "data_path_2": "sample_100_data_2.txt",
+        "similarity": 56.42
+    },
+    {
+        "sample_id": "101",
+        "data_path_1": "sample_101_data_1.txt",
+        "data_path_2": "sample_101_data_2.txt",
+        "similarity": 88.63
+    },
+    {
+        "sample_id": "102",
+        "data_path_1": "sample_102_data_1.txt",
+        "data_path_2": "sample_102_data_2.txt",
+        "similarity": 92.55
+    },
+    {
+        "sample_id": "103",
+        "data_path_1": "sample_103_data_1.txt",
+        "data_path_2": "sample_103_data_2.txt",
+        "similarity": 50.56
+    },
+    {
+        "sample_id": "104",
+        "data_path_1": "sample_104_data_1.txt",
+        "data_path_2": "sample_104_data_2.txt",
+        "similarity": 69.68
+    },
+    {
+        "sample_id": "105",
+        "data_path_1": "sample_105_data_1.txt",
+        "data_path_2": "sample_105_data_2.txt",
+        "similarity": 99.09
+    },
+    {
+        "sample_id": "106",
+        "data_path_1": "sample_106_data_1.txt",
+        "data_path_2": "sample_106_data_2.txt",
+        "similarity": 93.17
+    },
+    {
+        "sample_id": "107",
+        "data_path_1": "sample_107_data_1.txt",
+        "data_path_2": "sample_107_data_2.txt",
+        "similarity": 92.9
+    },
+    {
+        "sample_id": "108",
+        "data_path_1": "sample_108_data_1.txt",
+        "data_path_2": "sample_108_data_2.txt",
+        "similarity": 90.68
+    },
+    {
+        "sample_id": "109",
+        "data_path_1": "sample_109_data_1.txt",
+        "data_path_2": "sample_109_data_2.txt",
+        "similarity": 87.66
+    },
+    {
+        "sample_id": "110",
+        "data_path_1": "sample_110_data_1.txt",
+        "data_path_2": "sample_110_data_2.txt",
+        "similarity": 50.02
+    },
+    {
+        "sample_id": "111",
+        "data_path_1": "sample_111_data_1.txt",
+        "data_path_2": "sample_111_data_2.txt",
+        "similarity": 50.02
+    },
+    {
+        "sample_id": "112",
+        "data_path_1": "sample_112_data_1.txt",
+        "data_path_2": "sample_112_data_2.txt",
+        "similarity": 50.02
+    },
+    {
+        "sample_id": "113",
+        "data_path_1": "sample_113_data_1.txt",
+        "data_path_2": "sample_113_data_2.txt",
+        "similarity": 50.02
+    },
+    {
+        "sample_id": "114",
+        "data_path_1": "sample_114_data_1.txt",
+        "data_path_2": "sample_114_data_2.txt",
+        "similarity": 93.25
+    },
+    {
+        "sample_id": "115",
+        "data_path_1": "sample_115_data_1.txt",
+        "data_path_2": "sample_115_data_2.txt",
+        "similarity": 85.52
+    },
+    {
+        "sample_id": "116",
+        "data_path_1": "sample_116_data_1.txt",
+        "data_path_2": "sample_116_data_2.txt",
+        "similarity": 84.67
+    },
+    {
+        "sample_id": "117",
+        "data_path_1": "sample_117_data_1.txt",
+        "data_path_2": "sample_117_data_2.txt",
+        "similarity": 83.75
+    },
+    {
+        "sample_id": "118",
+        "data_path_1": "sample_118_data_1.txt",
+        "data_path_2": "sample_118_data_2.txt",
+        "similarity": 82.18
+    },
+    {
+        "sample_id": "119",
+        "data_path_1": "sample_119_data_1.txt",
+        "data_path_2": "sample_119_data_2.txt",
+        "similarity": 75.63
+    },
+    {
+        "sample_id": "120",
+        "data_path_1": "sample_120_data_1.txt",
+        "data_path_2": "sample_120_data_2.txt",
+        "similarity": 74.11
+    },
+    {
+        "sample_id": "121",
+        "data_path_1": "sample_121_data_1.txt",
+        "data_path_2": "sample_121_data_2.txt",
+        "similarity": 50.15
+    },
+    {
+        "sample_id": "122",
+        "data_path_1": "sample_122_data_1.txt",
+        "data_path_2": "sample_122_data_2.txt",
+        "similarity": 99.98
+    },
+    {
+        "sample_id": "123",
+        "data_path_1": "sample_123_data_1.txt",
+        "data_path_2": "sample_123_data_2.txt",
+        "similarity": 99.3
+    },
+    {
+        "sample_id": "124",
+        "data_path_1": "sample_124_data_1.txt",
+        "data_path_2": "sample_124_data_2.txt",
+        "similarity": 99.66
+    },
+    {
+        "sample_id": "125",
+        "data_path_1": "sample_125_data_1.txt",
+        "data_path_2": "sample_125_data_2.txt",
+        "similarity": 24.67
+    },
+    {
+        "sample_id": "126",
+        "data_path_1": "sample_126_data_1.txt",
+        "data_path_2": "sample_126_data_2.txt",
+        "similarity": 12.04
+    },
+    {
+        "sample_id": "127",
+        "data_path_1": "sample_127_data_1.txt",
+        "data_path_2": "sample_127_data_2.txt",
+        "similarity": 37.27
+    },
+    {
+        "sample_id": "128",
+        "data_path_1": "sample_128_data_1.txt",
+        "data_path_2": "sample_128_data_2.txt",
+        "similarity": 38.62
+    },
+    {
+        "sample_id": "129",
+        "data_path_1": "sample_129_data_1.txt",
+        "data_path_2": "sample_129_data_2.txt",
+        "similarity": 40.14
+    },
+    {
+        "sample_id": "130",
+        "data_path_1": "sample_130_data_1.txt",
+        "data_path_2": "sample_130_data_2.txt",
+        "similarity": 99.86
+    },
+    {
+        "sample_id": "131",
+        "data_path_1": "sample_131_data_1.txt",
+        "data_path_2": "sample_131_data_2.txt",
+        "similarity": 99.23
+    },
+    {
+        "sample_id": "132",
+        "data_path_1": "sample_132_data_1.txt",
+        "data_path_2": "sample_132_data_2.txt",
+        "similarity": 99.09
+    },
+    {
+        "sample_id": "133",
+        "data_path_1": "sample_133_data_1.txt",
+        "data_path_2": "sample_133_data_2.txt",
+        "similarity": 98.75
+    },
+    {
+        "sample_id": "134",
+        "data_path_1": "sample_134_data_1.txt",
+        "data_path_2": "sample_134_data_2.txt",
+        "similarity": 91.68
+    },
+    {
+        "sample_id": "135",
+        "data_path_1": "sample_135_data_1.txt",
+        "data_path_2": "sample_135_data_2.txt",
+        "similarity": 89.42
+    },
+    {
+        "sample_id": "136",
+        "data_path_1": "sample_136_data_1.txt",
+        "data_path_2": "sample_136_data_2.txt",
+        "similarity": 89.11
+    },
+    {
+        "sample_id": "137",
+        "data_path_1": "sample_137_data_1.txt",
+        "data_path_2": "sample_137_data_2.txt",
+        "similarity": 87.02
+    },
+    {
+        "sample_id": "138",
+        "data_path_1": "sample_138_data_1.txt",
+        "data_path_2": "sample_138_data_2.txt",
+        "similarity": 85.61
+    },
+    {
+        "sample_id": "139",
+        "data_path_1": "sample_139_data_1.txt",
+        "data_path_2": "sample_139_data_2.txt",
+        "similarity": 81.77
+    },
+    {
+        "sample_id": "140",
+        "data_path_1": "sample_140_data_1.txt",
+        "data_path_2": "sample_140_data_2.txt",
+        "similarity": 80.91
+    },
+    {
+        "sample_id": "141",
+        "data_path_1": "sample_141_data_1.txt",
+        "data_path_2": "sample_141_data_2.txt",
+        "similarity": 74.5
+    },
+    {
+        "sample_id": "142",
+        "data_path_1": "sample_142_data_1.txt",
+        "data_path_2": "sample_142_data_2.txt",
+        "similarity": 68.15
+    },
+    {
+        "sample_id": "143",
+        "data_path_1": "sample_143_data_1.txt",
+        "data_path_2": "sample_143_data_2.txt",
+        "similarity": 67.66
+    },
+    {
+        "sample_id": "144",
+        "data_path_1": "sample_144_data_1.txt",
+        "data_path_2": "sample_144_data_2.txt",
+        "similarity": 99.7
+    },
+    {
+        "sample_id": "145",
+        "data_path_1": "sample_145_data_1.txt",
+        "data_path_2": "sample_145_data_2.txt",
+        "similarity": 99.34
+    },
+    {
+        "sample_id": "146",
+        "data_path_1": "sample_146_data_1.txt",
+        "data_path_2": "sample_146_data_2.txt",
+        "similarity": 98.97
+    },
+    {
+        "sample_id": "147",
+        "data_path_1": "sample_147_data_1.txt",
+        "data_path_2": "sample_147_data_2.txt",
+        "similarity": 98.92
+    },
+    {
+        "sample_id": "148",
+        "data_path_1": "sample_148_data_1.txt",
+        "data_path_2": "sample_148_data_2.txt",
+        "similarity": 80.92
+    },
+    {
+        "sample_id": "149",
+        "data_path_1": "sample_149_data_1.txt",
+        "data_path_2": "sample_149_data_2.txt",
+        "similarity": 42.77
+    },
+    {
+        "sample_id": "150",
+        "data_path_1": "sample_150_data_1.txt",
+        "data_path_2": "sample_150_data_2.txt",
+        "similarity": 53.1
+    },
+    {
+        "sample_id": "151",
+        "data_path_1": "sample_151_data_1.txt",
+        "data_path_2": "sample_151_data_2.txt",
+        "similarity": 70.68
+    },
+    {
+        "sample_id": "152",
+        "data_path_1": "sample_152_data_1.txt",
+        "data_path_2": "sample_152_data_2.txt",
+        "similarity": 99.12
+    },
+    {
+        "sample_id": "153",
+        "data_path_1": "sample_153_data_1.txt",
+        "data_path_2": "sample_153_data_2.txt",
+        "similarity": 98.91
+    },
+    {
+        "sample_id": "154",
+        "data_path_1": "sample_154_data_1.txt",
+        "data_path_2": "sample_154_data_2.txt",
+        "similarity": 98.05
+    },
+    {
+        "sample_id": "155",
+        "data_path_1": "sample_155_data_1.txt",
+        "data_path_2": "sample_155_data_2.txt",
+        "similarity": 98.29
+    },
+    {
+        "sample_id": "156",
+        "data_path_1": "sample_156_data_1.txt",
+        "data_path_2": "sample_156_data_2.txt",
+        "similarity": 98.09
+    },
+    {
+        "sample_id": "157",
+        "data_path_1": "sample_157_data_1.txt",
+        "data_path_2": "sample_157_data_2.txt",
+        "similarity": 95.99
+    },
+    {
+        "sample_id": "158",
+        "data_path_1": "sample_158_data_1.txt",
+        "data_path_2": "sample_158_data_2.txt",
+        "similarity": 95.85
+    },
+    {
+        "sample_id": "159",
+        "data_path_1": "sample_159_data_1.txt",
+        "data_path_2": "sample_159_data_2.txt",
+        "similarity": 95.76
+    },
+    {
+        "sample_id": "160",
+        "data_path_1": "sample_160_data_1.txt",
+        "data_path_2": "sample_160_data_2.txt",
+        "similarity": 95.75
+    },
+    {
+        "sample_id": "161",
+        "data_path_1": "sample_161_data_1.txt",
+        "data_path_2": "sample_161_data_2.txt",
+        "similarity": 94.22
+    },
+    {
+        "sample_id": "162",
+        "data_path_1": "sample_162_data_1.txt",
+        "data_path_2": "sample_162_data_2.txt",
+        "similarity": 84.43
+    },
+    {
+        "sample_id": "163",
+        "data_path_1": "sample_163_data_1.txt",
+        "data_path_2": "sample_163_data_2.txt",
+        "similarity": 99.01
+    },
+    {
+        "sample_id": "164",
+        "data_path_1": "sample_164_data_1.txt",
+        "data_path_2": "sample_164_data_2.txt",
+        "similarity": 98.7
+    },
+    {
+        "sample_id": "165",
+        "data_path_1": "sample_165_data_1.txt",
+        "data_path_2": "sample_165_data_2.txt",
+        "similarity": 98.68
+    },
+    {
+        "sample_id": "166",
+        "data_path_1": "sample_166_data_1.txt",
+        "data_path_2": "sample_166_data_2.txt",
+        "similarity": 98.67
+    },
+    {
+        "sample_id": "167",
+        "data_path_1": "sample_167_data_1.txt",
+        "data_path_2": "sample_167_data_2.txt",
+        "similarity": 98.47
+    },
+    {
+        "sample_id": "168",
+        "data_path_1": "sample_168_data_1.txt",
+        "data_path_2": "sample_168_data_2.txt",
+        "similarity": 91.95
+    },
+    {
+        "sample_id": "169",
+        "data_path_1": "sample_169_data_1.txt",
+        "data_path_2": "sample_169_data_2.txt",
+        "similarity": 99.76
+    },
+    {
+        "sample_id": "170",
+        "data_path_1": "sample_170_data_1.txt",
+        "data_path_2": "sample_170_data_2.txt",
+        "similarity": 97.81
+    },
+    {
+        "sample_id": "171",
+        "data_path_1": "sample_171_data_1.txt",
+        "data_path_2": "sample_171_data_2.txt",
+        "similarity": 98.95
+    },
+    {
+        "sample_id": "172",
+        "data_path_1": "sample_172_data_1.txt",
+        "data_path_2": "sample_172_data_2.txt",
+        "similarity": 94.5
+    },
+    {
+        "sample_id": "173",
+        "data_path_1": "sample_173_data_1.txt",
+        "data_path_2": "sample_173_data_2.txt",
+        "similarity": 56.84
+    },
+    {
+        "sample_id": "174",
+        "data_path_1": "sample_174_data_1.txt",
+        "data_path_2": "sample_174_data_2.txt",
+        "similarity": 56.67
+    },
+    {
+        "sample_id": "175",
+        "data_path_1": "sample_175_data_1.txt",
+        "data_path_2": "sample_175_data_2.txt",
+        "similarity": 42.72
+    },
+    {
+        "sample_id": "176",
+        "data_path_1": "sample_176_data_1.txt",
+        "data_path_2": "sample_176_data_2.txt",
+        "similarity": 61.9
+    },
+    {
+        "sample_id": "177",
+        "data_path_1": "sample_177_data_1.txt",
+        "data_path_2": "sample_177_data_2.txt",
+        "similarity": 61.9
+    },
+    {
+        "sample_id": "178",
+        "data_path_1": "sample_178_data_1.txt",
+        "data_path_2": "sample_178_data_2.txt",
+        "similarity": 97.54
+    },
+    {
+        "sample_id": "179",
+        "data_path_1": "sample_179_data_1.txt",
+        "data_path_2": "sample_179_data_2.txt",
+        "similarity": 95.71
+    },
+    {
+        "sample_id": "180",
+        "data_path_1": "sample_180_data_1.txt",
+        "data_path_2": "sample_180_data_2.txt",
+        "similarity": 97.54
+    },
+    {
+        "sample_id": "181",
+        "data_path_1": "sample_181_data_1.txt",
+        "data_path_2": "sample_181_data_2.txt",
+        "similarity": 40.5
+    },
+    {
+        "sample_id": "182",
+        "data_path_1": "sample_182_data_1.txt",
+        "data_path_2": "sample_182_data_2.txt",
+        "similarity": 99.28
+    },
+    {
+        "sample_id": "183",
+        "data_path_1": "sample_183_data_1.txt",
+        "data_path_2": "sample_183_data_2.txt",
+        "similarity": 90.09
+    },
+    {
+        "sample_id": "184",
+        "data_path_1": "sample_184_data_1.txt",
+        "data_path_2": "sample_184_data_2.txt",
+        "similarity": 85.73
+    },
+    {
+        "sample_id": "185",
+        "data_path_1": "sample_185_data_1.txt",
+        "data_path_2": "sample_185_data_2.txt",
+        "similarity": 77.12
+    },
+    {
+        "sample_id": "186",
+        "data_path_1": "sample_186_data_1.txt",
+        "data_path_2": "sample_186_data_2.txt",
+        "similarity": 56.46
+    },
+    {
+        "sample_id": "187",
+        "data_path_1": "sample_187_data_1.txt",
+        "data_path_2": "sample_187_data_2.txt",
+        "similarity": 45.86
+    },
+    {
+        "sample_id": "188",
+        "data_path_1": "sample_188_data_1.txt",
+        "data_path_2": "sample_188_data_2.txt",
+        "similarity": 93.0
+    },
+    {
+        "sample_id": "189",
+        "data_path_1": "sample_189_data_1.txt",
+        "data_path_2": "sample_189_data_2.txt",
+        "similarity": 86.0
+    },
+    {
+        "sample_id": "190",
+        "data_path_1": "sample_190_data_1.txt",
+        "data_path_2": "sample_190_data_2.txt",
+        "similarity": 94.33
+    },
+    {
+        "sample_id": "191",
+        "data_path_1": "sample_191_data_1.txt",
+        "data_path_2": "sample_191_data_2.txt",
+        "similarity": 93.61
+    },
+    {
+        "sample_id": "192",
+        "data_path_1": "sample_192_data_1.txt",
+        "data_path_2": "sample_192_data_2.txt",
+        "similarity": 91.45
+    },
+    {
+        "sample_id": "193",
+        "data_path_1": "sample_193_data_1.txt",
+        "data_path_2": "sample_193_data_2.txt",
+        "similarity": 88.86
+    },
+    {
+        "sample_id": "194",
+        "data_path_1": "sample_194_data_1.txt",
+        "data_path_2": "sample_194_data_2.txt",
+        "similarity": 82.33
+    },
+    {
+        "sample_id": "195",
+        "data_path_1": "sample_195_data_1.txt",
+        "data_path_2": "sample_195_data_2.txt",
+        "similarity": 82.15
+    },
+    {
+        "sample_id": "196",
+        "data_path_1": "sample_196_data_1.txt",
+        "data_path_2": "sample_196_data_2.txt",
+        "similarity": 79.87
+    },
+    {
+        "sample_id": "197",
+        "data_path_1": "sample_197_data_1.txt",
+        "data_path_2": "sample_197_data_2.txt",
+        "similarity": 43.77
+    },
+    {
+        "sample_id": "198",
+        "data_path_1": "sample_198_data_1.txt",
+        "data_path_2": "sample_198_data_2.txt",
+        "similarity": 43.56
+    },
+    {
+        "sample_id": "199",
+        "data_path_1": "sample_199_data_1.txt",
+        "data_path_2": "sample_199_data_2.txt",
+        "similarity": 42.14
+    },
+    {
+        "sample_id": "200",
+        "data_path_1": "sample_200_data_1.txt",
+        "data_path_2": "sample_200_data_2.txt",
+        "similarity": 42.81
+    },
+    {
+        "sample_id": "201",
+        "data_path_1": "sample_201_data_1.txt",
+        "data_path_2": "sample_201_data_2.txt",
+        "similarity": 37.28
+    },
+    {
+        "sample_id": "202",
+        "data_path_1": "sample_202_data_1.txt",
+        "data_path_2": "sample_202_data_2.txt",
+        "similarity": 36.98
+    },
+    {
+        "sample_id": "203",
+        "data_path_1": "sample_203_data_1.txt",
+        "data_path_2": "sample_203_data_2.txt",
+        "similarity": 94.33
+    },
+    {
+        "sample_id": "204",
+        "data_path_1": "sample_204_data_1.txt",
+        "data_path_2": "sample_204_data_2.txt",
+        "similarity": 93.61
+    },
+    {
+        "sample_id": "205",
+        "data_path_1": "sample_205_data_1.txt",
+        "data_path_2": "sample_205_data_2.txt",
+        "similarity": 91.45
+    },
+    {
+        "sample_id": "206",
+        "data_path_1": "sample_206_data_1.txt",
+        "data_path_2": "sample_206_data_2.txt",
+        "similarity": 89.56
+    },
+    {
+        "sample_id": "207",
+        "data_path_1": "sample_207_data_1.txt",
+        "data_path_2": "sample_207_data_2.txt",
+        "similarity": 88.86
+    },
+    {
+        "sample_id": "208",
+        "data_path_1": "sample_208_data_1.txt",
+        "data_path_2": "sample_208_data_2.txt",
+        "similarity": 86.87
+    },
+    {
+        "sample_id": "209",
+        "data_path_1": "sample_209_data_1.txt",
+        "data_path_2": "sample_209_data_2.txt",
+        "similarity": 83.42
+    },
+    {
+        "sample_id": "210",
+        "data_path_1": "sample_210_data_1.txt",
+        "data_path_2": "sample_210_data_2.txt",
+        "similarity": 37.28
+    },
+    {
+        "sample_id": "211",
+        "data_path_1": "sample_211_data_1.txt",
+        "data_path_2": "sample_211_data_2.txt",
+        "similarity": 95.09
+    },
+    {
+        "sample_id": "212",
+        "data_path_1": "sample_212_data_1.txt",
+        "data_path_2": "sample_212_data_2.txt",
+        "similarity": 94.98
+    },
+    {
+        "sample_id": "213",
+        "data_path_1": "sample_213_data_1.txt",
+        "data_path_2": "sample_213_data_2.txt",
+        "similarity": 84.05
+    },
+    {
+        "sample_id": "214",
+        "data_path_1": "sample_214_data_1.txt",
+        "data_path_2": "sample_214_data_2.txt",
+        "similarity": 83.74
+    },
+    {
+        "sample_id": "215",
+        "data_path_1": "sample_215_data_1.txt",
+        "data_path_2": "sample_215_data_2.txt",
+        "similarity": 82.44
+    },
+    {
+        "sample_id": "216",
+        "data_path_1": "sample_216_data_1.txt",
+        "data_path_2": "sample_216_data_2.txt",
+        "similarity": 80.41
+    },
+    {
+        "sample_id": "217",
+        "data_path_1": "sample_217_data_1.txt",
+        "data_path_2": "sample_217_data_2.txt",
+        "similarity": 30.94
+    },
+    {
+        "sample_id": "218",
+        "data_path_1": "sample_218_data_1.txt",
+        "data_path_2": "sample_218_data_2.txt",
+        "similarity": 6.89
+    },
+    {
+        "sample_id": "219",
+        "data_path_1": "sample_219_data_1.txt",
+        "data_path_2": "sample_219_data_2.txt",
+        "similarity": 58.38
+    },
+    {
+        "sample_id": "220",
+        "data_path_1": "sample_220_data_1.txt",
+        "data_path_2": "sample_220_data_2.txt",
+        "similarity": 97.5
+    },
+    {
+        "sample_id": "221",
+        "data_path_1": "sample_221_data_1.txt",
+        "data_path_2": "sample_221_data_2.txt",
+        "similarity": 96.61
+    },
+    {
+        "sample_id": "222",
+        "data_path_1": "sample_222_data_1.txt",
+        "data_path_2": "sample_222_data_2.txt",
+        "similarity": 93.65
+    },
+    {
+        "sample_id": "223",
+        "data_path_1": "sample_223_data_1.txt",
+        "data_path_2": "sample_223_data_2.txt",
+        "similarity": 93.55
+    },
+    {
+        "sample_id": "224",
+        "data_path_1": "sample_224_data_1.txt",
+        "data_path_2": "sample_224_data_2.txt",
+        "similarity": 79.41
+    },
+    {
+        "sample_id": "225",
+        "data_path_1": "sample_225_data_1.txt",
+        "data_path_2": "sample_225_data_2.txt",
+        "similarity": 93.05
+    },
+    {
+        "sample_id": "226",
+        "data_path_1": "sample_226_data_1.txt",
+        "data_path_2": "sample_226_data_2.txt",
+        "similarity": 89.85
+    },
+    {
+        "sample_id": "227",
+        "data_path_1": "sample_227_data_1.txt",
+        "data_path_2": "sample_227_data_2.txt",
+        "similarity": 97.4
+    },
+    {
+        "sample_id": "228",
+        "data_path_1": "sample_228_data_1.txt",
+        "data_path_2": "sample_228_data_2.txt",
+        "similarity": 95.64
+    },
+    {
+        "sample_id": "229",
+        "data_path_1": "sample_229_data_1.txt",
+        "data_path_2": "sample_229_data_2.txt",
+        "similarity": 88.86
+    },
+    {
+        "sample_id": "230",
+        "data_path_1": "sample_230_data_1.txt",
+        "data_path_2": "sample_230_data_2.txt",
+        "similarity": 77.69
+    },
+    {
+        "sample_id": "231",
+        "data_path_1": "sample_231_data_1.txt",
+        "data_path_2": "sample_231_data_2.txt",
+        "similarity": 99.0
+    },
+    {
+        "sample_id": "232",
+        "data_path_1": "sample_232_data_1.txt",
+        "data_path_2": "sample_232_data_2.txt",
+        "similarity": 93.82
+    },
+    {
+        "sample_id": "233",
+        "data_path_1": "sample_233_data_1.txt",
+        "data_path_2": "sample_233_data_2.txt",
+        "similarity": 89.75
+    },
+    {
+        "sample_id": "234",
+        "data_path_1": "sample_234_data_1.txt",
+        "data_path_2": "sample_234_data_2.txt",
+        "similarity": 87.46
+    },
+    {
+        "sample_id": "235",
+        "data_path_1": "sample_235_data_1.txt",
+        "data_path_2": "sample_235_data_2.txt",
+        "similarity": 87.26
+    },
+    {
+        "sample_id": "236",
+        "data_path_1": "sample_236_data_1.txt",
+        "data_path_2": "sample_236_data_2.txt",
+        "similarity": 87.07
+    },
+    {
+        "sample_id": "237",
+        "data_path_1": "sample_237_data_1.txt",
+        "data_path_2": "sample_237_data_2.txt",
+        "similarity": 83.47
+    },
+    {
+        "sample_id": "238",
+        "data_path_1": "sample_238_data_1.txt",
+        "data_path_2": "sample_238_data_2.txt",
+        "similarity": 11.07
+    },
+    {
+        "sample_id": "239",
+        "data_path_1": "sample_239_data_1.txt",
+        "data_path_2": "sample_239_data_2.txt",
+        "similarity": 40.45
+    },
+    {
+        "sample_id": "240",
+        "data_path_1": "sample_240_data_1.txt",
+        "data_path_2": "sample_240_data_2.txt",
+        "similarity": 73.76
+    },
+    {
+        "sample_id": "241",
+        "data_path_1": "sample_241_data_1.txt",
+        "data_path_2": "sample_241_data_2.txt",
+        "similarity": 70.46
+    },
+    {
+        "sample_id": "242",
+        "data_path_1": "sample_242_data_1.txt",
+        "data_path_2": "sample_242_data_2.txt",
+        "similarity": 90.87
+    },
+    {
+        "sample_id": "243",
+        "data_path_1": "sample_243_data_1.txt",
+        "data_path_2": "sample_243_data_2.txt",
+        "similarity": 7.16
+    },
+    {
+        "sample_id": "244",
+        "data_path_1": "sample_244_data_1.txt",
+        "data_path_2": "sample_244_data_2.txt",
+        "similarity": 2.03
+    },
+    {
+        "sample_id": "245",
+        "data_path_1": "sample_245_data_1.txt",
+        "data_path_2": "sample_245_data_2.txt",
+        "similarity": 91.6
+    },
+    {
+        "sample_id": "246",
+        "data_path_1": "sample_246_data_1.txt",
+        "data_path_2": "sample_246_data_2.txt",
+        "similarity": 91.24
+    },
+    {
+        "sample_id": "247",
+        "data_path_1": "sample_247_data_1.txt",
+        "data_path_2": "sample_247_data_2.txt",
+        "similarity": 87.57
+    },
+    {
+        "sample_id": "248",
+        "data_path_1": "sample_248_data_1.txt",
+        "data_path_2": "sample_248_data_2.txt",
+        "similarity": 98.62
+    },
+    {
+        "sample_id": "249",
+        "data_path_1": "sample_249_data_1.txt",
+        "data_path_2": "sample_249_data_2.txt",
+        "similarity": 98.33
+    },
+    {
+        "sample_id": "250",
+        "data_path_1": "sample_250_data_1.txt",
+        "data_path_2": "sample_250_data_2.txt",
+        "similarity": 97.54
+    },
+    {
+        "sample_id": "251",
+        "data_path_1": "sample_251_data_1.txt",
+        "data_path_2": "sample_251_data_2.txt",
+        "similarity": 97.48
+    },
+    {
+        "sample_id": "252",
+        "data_path_1": "sample_252_data_1.txt",
+        "data_path_2": "sample_252_data_2.txt",
+        "similarity": 97.31
+    },
+    {
+        "sample_id": "253",
+        "data_path_1": "sample_253_data_1.txt",
+        "data_path_2": "sample_253_data_2.txt",
+        "similarity": 96.91
+    },
+    {
+        "sample_id": "254",
+        "data_path_1": "sample_254_data_1.txt",
+        "data_path_2": "sample_254_data_2.txt",
+        "similarity": 86.47
+    },
+    {
+        "sample_id": "255",
+        "data_path_1": "sample_255_data_1.txt",
+        "data_path_2": "sample_255_data_2.txt",
+        "similarity": 86.11
+    },
+    {
+        "sample_id": "256",
+        "data_path_1": "sample_256_data_1.txt",
+        "data_path_2": "sample_256_data_2.txt",
+        "similarity": 94.77
+    },
+    {
+        "sample_id": "257",
+        "data_path_1": "sample_257_data_1.txt",
+        "data_path_2": "sample_257_data_2.txt",
+        "similarity": 75.0
+    },
+    {
+        "sample_id": "258",
+        "data_path_1": "sample_258_data_1.txt",
+        "data_path_2": "sample_258_data_2.txt",
+        "similarity": 95.32
+    },
+    {
+        "sample_id": "259",
+        "data_path_1": "sample_259_data_1.txt",
+        "data_path_2": "sample_259_data_2.txt",
+        "similarity": 94.24
+    },
+    {
+        "sample_id": "260",
+        "data_path_1": "sample_260_data_1.txt",
+        "data_path_2": "sample_260_data_2.txt",
+        "similarity": 81.6
+    },
+    {
+        "sample_id": "261",
+        "data_path_1": "sample_261_data_1.txt",
+        "data_path_2": "sample_261_data_2.txt",
+        "similarity": 30.64
+    },
+    {
+        "sample_id": "262",
+        "data_path_1": "sample_262_data_1.txt",
+        "data_path_2": "sample_262_data_2.txt",
+        "similarity": 26.03
+    },
+    {
+        "sample_id": "263",
+        "data_path_1": "sample_263_data_1.txt",
+        "data_path_2": "sample_263_data_2.txt",
+        "similarity": 97.37
+    },
+    {
+        "sample_id": "264",
+        "data_path_1": "sample_264_data_1.txt",
+        "data_path_2": "sample_264_data_2.txt",
+        "similarity": 85.44
+    },
+    {
+        "sample_id": "265",
+        "data_path_1": "sample_265_data_1.txt",
+        "data_path_2": "sample_265_data_2.txt",
+        "similarity": 96.65
+    },
+    {
+        "sample_id": "266",
+        "data_path_1": "sample_266_data_1.txt",
+        "data_path_2": "sample_266_data_2.txt",
+        "similarity": 89.81
+    },
+    {
+        "sample_id": "267",
+        "data_path_1": "sample_267_data_1.txt",
+        "data_path_2": "sample_267_data_2.txt",
+        "similarity": 89.67
+    },
+    {
+        "sample_id": "268",
+        "data_path_1": "sample_268_data_1.txt",
+        "data_path_2": "sample_268_data_2.txt",
+        "similarity": 88.69
+    },
+    {
+        "sample_id": "269",
+        "data_path_1": "sample_269_data_1.txt",
+        "data_path_2": "sample_269_data_2.txt",
+        "similarity": 72.88
+    },
+    {
+        "sample_id": "270",
+        "data_path_1": "sample_270_data_1.txt",
+        "data_path_2": "sample_270_data_2.txt",
+        "similarity": 72.24
+    },
+    {
+        "sample_id": "271",
+        "data_path_1": "sample_271_data_1.txt",
+        "data_path_2": "sample_271_data_2.txt",
+        "similarity": 96.99
+    },
+    {
+        "sample_id": "272",
+        "data_path_1": "sample_272_data_1.txt",
+        "data_path_2": "sample_272_data_2.txt",
+        "similarity": 93.88
+    },
+    {
+        "sample_id": "273",
+        "data_path_1": "sample_273_data_1.txt",
+        "data_path_2": "sample_273_data_2.txt",
+        "similarity": 69.67
+    },
+    {
+        "sample_id": "274",
+        "data_path_1": "sample_274_data_1.txt",
+        "data_path_2": "sample_274_data_2.txt",
+        "similarity": 57.14
+    },
+    {
+        "sample_id": "275",
+        "data_path_1": "sample_275_data_1.txt",
+        "data_path_2": "sample_275_data_2.txt",
+        "similarity": 44.76
+    },
+    {
+        "sample_id": "276",
+        "data_path_1": "sample_276_data_1.txt",
+        "data_path_2": "sample_276_data_2.txt",
+        "similarity": 98.57
+    },
+    {
+        "sample_id": "277",
+        "data_path_1": "sample_277_data_1.txt",
+        "data_path_2": "sample_277_data_2.txt",
+        "similarity": 72.18
+    },
+    {
+        "sample_id": "278",
+        "data_path_1": "sample_278_data_1.txt",
+        "data_path_2": "sample_278_data_2.txt",
+        "similarity": 98.34
+    },
+    {
+        "sample_id": "279",
+        "data_path_1": "sample_279_data_1.txt",
+        "data_path_2": "sample_279_data_2.txt",
+        "similarity": 98.63
+    },
+    {
+        "sample_id": "280",
+        "data_path_1": "sample_280_data_1.txt",
+        "data_path_2": "sample_280_data_2.txt",
+        "similarity": 97.1
+    },
+    {
+        "sample_id": "281",
+        "data_path_1": "sample_281_data_1.txt",
+        "data_path_2": "sample_281_data_2.txt",
+        "similarity": 97.3
+    },
+    {
+        "sample_id": "282",
+        "data_path_1": "sample_282_data_1.txt",
+        "data_path_2": "sample_282_data_2.txt",
+        "similarity": 86.64
+    },
+    {
+        "sample_id": "283",
+        "data_path_1": "sample_283_data_1.txt",
+        "data_path_2": "sample_283_data_2.txt",
+        "similarity": 79.12
+    },
+    {
+        "sample_id": "284",
+        "data_path_1": "sample_284_data_1.txt",
+        "data_path_2": "sample_284_data_2.txt",
+        "similarity": 64.41
+    },
+    {
+        "sample_id": "285",
+        "data_path_1": "sample_285_data_1.txt",
+        "data_path_2": "sample_285_data_2.txt",
+        "similarity": 14.03
+    },
+    {
+        "sample_id": "286",
+        "data_path_1": "sample_286_data_1.txt",
+        "data_path_2": "sample_286_data_2.txt",
+        "similarity": 96.81
+    },
+    {
+        "sample_id": "287",
+        "data_path_1": "sample_287_data_1.txt",
+        "data_path_2": "sample_287_data_2.txt",
+        "similarity": 86.65
+    },
+    {
+        "sample_id": "288",
+        "data_path_1": "sample_288_data_1.txt",
+        "data_path_2": "sample_288_data_2.txt",
+        "similarity": 75.64
+    },
+    {
+        "sample_id": "289",
+        "data_path_1": "sample_289_data_1.txt",
+        "data_path_2": "sample_289_data_2.txt",
+        "similarity": 64.55
+    },
+    {
+        "sample_id": "290",
+        "data_path_1": "sample_290_data_1.txt",
+        "data_path_2": "sample_290_data_2.txt",
+        "similarity": 85.13
+    },
+    {
+        "sample_id": "291",
+        "data_path_1": "sample_291_data_1.txt",
+        "data_path_2": "sample_291_data_2.txt",
+        "similarity": 60.0
+    },
+    {
+        "sample_id": "292",
+        "data_path_1": "sample_292_data_1.txt",
+        "data_path_2": "sample_292_data_2.txt",
+        "similarity": 78.1
+    },
+    {
+        "sample_id": "293",
+        "data_path_1": "sample_293_data_1.txt",
+        "data_path_2": "sample_293_data_2.txt",
+        "similarity": 91.25
+    },
+    {
+        "sample_id": "294",
+        "data_path_1": "sample_294_data_1.txt",
+        "data_path_2": "sample_294_data_2.txt",
+        "similarity": 82.76
+    },
+    {
+        "sample_id": "295",
+        "data_path_1": "sample_295_data_1.txt",
+        "data_path_2": "sample_295_data_2.txt",
+        "similarity": 80.19
+    },
+    {
+        "sample_id": "296",
+        "data_path_1": "sample_296_data_1.txt",
+        "data_path_2": "sample_296_data_2.txt",
+        "similarity": 86.21
+    },
+    {
+        "sample_id": "297",
+        "data_path_1": "sample_297_data_1.txt",
+        "data_path_2": "sample_297_data_2.txt",
+        "similarity": 84.47
+    },
+    {
+        "sample_id": "298",
+        "data_path_1": "sample_298_data_1.txt",
+        "data_path_2": "sample_298_data_2.txt",
+        "similarity": 83.98
+    },
+    {
+        "sample_id": "299",
+        "data_path_1": "sample_299_data_1.txt",
+        "data_path_2": "sample_299_data_2.txt",
+        "similarity": 82.47
+    },
+    {
+        "sample_id": "300",
+        "data_path_1": "sample_300_data_1.txt",
+        "data_path_2": "sample_300_data_2.txt",
+        "similarity": 52.14
+    },
+    {
+        "sample_id": "301",
+        "data_path_1": "sample_301_data_1.txt",
+        "data_path_2": "sample_301_data_2.txt",
+        "similarity": 72.44
+    },
+    {
+        "sample_id": "302",
+        "data_path_1": "sample_302_data_1.txt",
+        "data_path_2": "sample_302_data_2.txt",
+        "similarity": 51.49
+    },
+    {
+        "sample_id": "303",
+        "data_path_1": "sample_303_data_1.txt",
+        "data_path_2": "sample_303_data_2.txt",
+        "similarity": 18.05
+    },
+    {
+        "sample_id": "304",
+        "data_path_1": "sample_304_data_1.txt",
+        "data_path_2": "sample_304_data_2.txt",
+        "similarity": 27.61
+    },
+    {
+        "sample_id": "305",
+        "data_path_1": "sample_305_data_1.txt",
+        "data_path_2": "sample_305_data_2.txt",
+        "similarity": 75.1
+    },
+    {
+        "sample_id": "306",
+        "data_path_1": "sample_306_data_1.txt",
+        "data_path_2": "sample_306_data_2.txt",
+        "similarity": 94.32
+    },
+    {
+        "sample_id": "307",
+        "data_path_1": "sample_307_data_1.txt",
+        "data_path_2": "sample_307_data_2.txt",
+        "similarity": 91.34
+    },
+    {
+        "sample_id": "308",
+        "data_path_1": "sample_308_data_1.txt",
+        "data_path_2": "sample_308_data_2.txt",
+        "similarity": 99.26
+    },
+    {
+        "sample_id": "309",
+        "data_path_1": "sample_309_data_1.txt",
+        "data_path_2": "sample_309_data_2.txt",
+        "similarity": 91.64
+    },
+    {
+        "sample_id": "310",
+        "data_path_1": "sample_310_data_1.txt",
+        "data_path_2": "sample_310_data_2.txt",
+        "similarity": 84.56
+    },
+    {
+        "sample_id": "311",
+        "data_path_1": "sample_311_data_1.txt",
+        "data_path_2": "sample_311_data_2.txt",
+        "similarity": 67.35
+    },
+    {
+        "sample_id": "312",
+        "data_path_1": "sample_312_data_1.txt",
+        "data_path_2": "sample_312_data_2.txt",
+        "similarity": 10.26
+    },
+    {
+        "sample_id": "313",
+        "data_path_1": "sample_313_data_1.txt",
+        "data_path_2": "sample_313_data_2.txt",
+        "similarity": 78.21
+    },
+    {
+        "sample_id": "314",
+        "data_path_1": "sample_314_data_1.txt",
+        "data_path_2": "sample_314_data_2.txt",
+        "similarity": 82.08
+    },
+    {
+        "sample_id": "315",
+        "data_path_1": "sample_315_data_1.txt",
+        "data_path_2": "sample_315_data_2.txt",
+        "similarity": 71.89
+    },
+    {
+        "sample_id": "316",
+        "data_path_1": "sample_316_data_1.txt",
+        "data_path_2": "sample_316_data_2.txt",
+        "similarity": 90.32
+    },
+    {
+        "sample_id": "317",
+        "data_path_1": "sample_317_data_1.txt",
+        "data_path_2": "sample_317_data_2.txt",
+        "similarity": 87.51
+    },
+    {
+        "sample_id": "318",
+        "data_path_1": "sample_318_data_1.txt",
+        "data_path_2": "sample_318_data_2.txt",
+        "similarity": 83.04
+    },
+    {
+        "sample_id": "319",
+        "data_path_1": "sample_319_data_1.txt",
+        "data_path_2": "sample_319_data_2.txt",
+        "similarity": 65.0
+    },
+    {
+        "sample_id": "320",
+        "data_path_1": "sample_320_data_1.txt",
+        "data_path_2": "sample_320_data_2.txt",
+        "similarity": 78.12
+    },
+    {
+        "sample_id": "321",
+        "data_path_1": "sample_321_data_1.txt",
+        "data_path_2": "sample_321_data_2.txt",
+        "similarity": 89.93
+    },
+    {
+        "sample_id": "322",
+        "data_path_1": "sample_322_data_1.txt",
+        "data_path_2": "sample_322_data_2.txt",
+        "similarity": 66.1
+    },
+    {
+        "sample_id": "323",
+        "data_path_1": "sample_323_data_1.txt",
+        "data_path_2": "sample_323_data_2.txt",
+        "similarity": 91.99
+    },
+    {
+        "sample_id": "324",
+        "data_path_1": "sample_324_data_1.txt",
+        "data_path_2": "sample_324_data_2.txt",
+        "similarity": 91.98
+    },
+    {
+        "sample_id": "325",
+        "data_path_1": "sample_325_data_1.txt",
+        "data_path_2": "sample_325_data_2.txt",
+        "similarity": 79.75
+    },
+    {
+        "sample_id": "326",
+        "data_path_1": "sample_326_data_1.txt",
+        "data_path_2": "sample_326_data_2.txt",
+        "similarity": 73.31
+    },
+    {
+        "sample_id": "327",
+        "data_path_1": "sample_327_data_1.txt",
+        "data_path_2": "sample_327_data_2.txt",
+        "similarity": 82.65
+    },
+    {
+        "sample_id": "328",
+        "data_path_1": "sample_328_data_1.txt",
+        "data_path_2": "sample_328_data_2.txt",
+        "similarity": 66.43
+    },
+    {
+        "sample_id": "329",
+        "data_path_1": "sample_329_data_1.txt",
+        "data_path_2": "sample_329_data_2.txt",
+        "similarity": 89.88
+    },
+    {
+        "sample_id": "330",
+        "data_path_1": "sample_330_data_1.txt",
+        "data_path_2": "sample_330_data_2.txt",
+        "similarity": 99.98
+    },
+    {
+        "sample_id": "331",
+        "data_path_1": "sample_331_data_1.txt",
+        "data_path_2": "sample_331_data_2.txt",
+        "similarity": 92.37
+    },
+    {
+        "sample_id": "332",
+        "data_path_1": "sample_332_data_1.txt",
+        "data_path_2": "sample_332_data_2.txt",
+        "similarity": 86.79
+    },
+    {
+        "sample_id": "333",
+        "data_path_1": "sample_333_data_1.txt",
+        "data_path_2": "sample_333_data_2.txt",
+        "similarity": 84.9
+    },
+    {
+        "sample_id": "334",
+        "data_path_1": "sample_334_data_1.txt",
+        "data_path_2": "sample_334_data_2.txt",
+        "similarity": 73.0
+    },
+    {
+        "sample_id": "335",
+        "data_path_1": "sample_335_data_1.txt",
+        "data_path_2": "sample_335_data_2.txt",
+        "similarity": 80.77
+    },
+    {
+        "sample_id": "336",
+        "data_path_1": "sample_336_data_1.txt",
+        "data_path_2": "sample_336_data_2.txt",
+        "similarity": 40.57
+    },
+    {
+        "sample_id": "337",
+        "data_path_1": "sample_337_data_1.txt",
+        "data_path_2": "sample_337_data_2.txt",
+        "similarity": 53.39
+    },
+    {
+        "sample_id": "338",
+        "data_path_1": "sample_338_data_1.txt",
+        "data_path_2": "sample_338_data_2.txt",
+        "similarity": 98.33
+    },
+    {
+        "sample_id": "339",
+        "data_path_1": "sample_339_data_1.txt",
+        "data_path_2": "sample_339_data_2.txt",
+        "similarity": 60.2
+    },
+    {
+        "sample_id": "340",
+        "data_path_1": "sample_340_data_1.txt",
+        "data_path_2": "sample_340_data_2.txt",
+        "similarity": 60.9
+    },
+    {
+        "sample_id": "341",
+        "data_path_1": "sample_341_data_1.txt",
+        "data_path_2": "sample_341_data_2.txt",
+        "similarity": 50.2
+    },
+    {
+        "sample_id": "342",
+        "data_path_1": "sample_342_data_1.txt",
+        "data_path_2": "sample_342_data_2.txt",
+        "similarity": 99.92
+    },
+    {
+        "sample_id": "343",
+        "data_path_1": "sample_343_data_1.txt",
+        "data_path_2": "sample_343_data_2.txt",
+        "similarity": 99.81
+    },
+    {
+        "sample_id": "344",
+        "data_path_1": "sample_344_data_1.txt",
+        "data_path_2": "sample_344_data_2.txt",
+        "similarity": 99.92
+    },
+    {
+        "sample_id": "345",
+        "data_path_1": "sample_345_data_1.txt",
+        "data_path_2": "sample_345_data_2.txt",
+        "similarity": 99.96
+    },
+    {
+        "sample_id": "346",
+        "data_path_1": "sample_346_data_1.txt",
+        "data_path_2": "sample_346_data_2.txt",
+        "similarity": 98.55
+    },
+    {
+        "sample_id": "347",
+        "data_path_1": "sample_347_data_1.txt",
+        "data_path_2": "sample_347_data_2.txt",
+        "similarity": 98.55
+    },
+    {
+        "sample_id": "348",
+        "data_path_1": "sample_348_data_1.txt",
+        "data_path_2": "sample_348_data_2.txt",
+        "similarity": 56.55
+    },
+    {
+        "sample_id": "349",
+        "data_path_1": "sample_349_data_1.txt",
+        "data_path_2": "sample_349_data_2.txt",
+        "similarity": 58.18
+    },
+    {
+        "sample_id": "350",
+        "data_path_1": "sample_350_data_1.txt",
+        "data_path_2": "sample_350_data_2.txt",
+        "similarity": 45.18
+    },
+    {
+        "sample_id": "351",
+        "data_path_1": "sample_351_data_1.txt",
+        "data_path_2": "sample_351_data_2.txt",
+        "similarity": 99.7
+    },
+    {
+        "sample_id": "352",
+        "data_path_1": "sample_352_data_1.txt",
+        "data_path_2": "sample_352_data_2.txt",
+        "similarity": 99.6
+    },
+    {
+        "sample_id": "353",
+        "data_path_1": "sample_353_data_1.txt",
+        "data_path_2": "sample_353_data_2.txt",
+        "similarity": 58.21
+    },
+    {
+        "sample_id": "354",
+        "data_path_1": "sample_354_data_1.txt",
+        "data_path_2": "sample_354_data_2.txt",
+        "similarity": 99.16
+    },
+    {
+        "sample_id": "355",
+        "data_path_1": "sample_355_data_1.txt",
+        "data_path_2": "sample_355_data_2.txt",
+        "similarity": 56.7
+    },
+    {
+        "sample_id": "356",
+        "data_path_1": "sample_356_data_1.txt",
+        "data_path_2": "sample_356_data_2.txt",
+        "similarity": 56.15
+    },
+    {
+        "sample_id": "357",
+        "data_path_1": "sample_357_data_1.txt",
+        "data_path_2": "sample_357_data_2.txt",
+        "similarity": 56.15
+    },
+    {
+        "sample_id": "358",
+        "data_path_1": "sample_358_data_1.txt",
+        "data_path_2": "sample_358_data_2.txt",
+        "similarity": 99.18
+    },
+    {
+        "sample_id": "359",
+        "data_path_1": "sample_359_data_1.txt",
+        "data_path_2": "sample_359_data_2.txt",
+        "similarity": 99.14
+    },
+    {
+        "sample_id": "360",
+        "data_path_1": "sample_360_data_1.txt",
+        "data_path_2": "sample_360_data_2.txt",
+        "similarity": 99.03
+    },
+    {
+        "sample_id": "361",
+        "data_path_1": "sample_361_data_1.txt",
+        "data_path_2": "sample_361_data_2.txt",
+        "similarity": 46.9
+    },
+    {
+        "sample_id": "362",
+        "data_path_1": "sample_362_data_1.txt",
+        "data_path_2": "sample_362_data_2.txt",
+        "similarity": 99.92
+    },
+    {
+        "sample_id": "363",
+        "data_path_1": "sample_363_data_1.txt",
+        "data_path_2": "sample_363_data_2.txt",
+        "similarity": 99.21
+    },
+    {
+        "sample_id": "364",
+        "data_path_1": "sample_364_data_1.txt",
+        "data_path_2": "sample_364_data_2.txt",
+        "similarity": 99.89
+    },
+    {
+        "sample_id": "365",
+        "data_path_1": "sample_365_data_1.txt",
+        "data_path_2": "sample_365_data_2.txt",
+        "similarity": 99.17
+    },
+    {
+        "sample_id": "366",
+        "data_path_1": "sample_366_data_1.txt",
+        "data_path_2": "sample_366_data_2.txt",
+        "similarity": 82.58
+    },
+    {
+        "sample_id": "367",
+        "data_path_1": "sample_367_data_1.txt",
+        "data_path_2": "sample_367_data_2.txt",
+        "similarity": 99.47
+    },
+    {
+        "sample_id": "368",
+        "data_path_1": "sample_368_data_1.txt",
+        "data_path_2": "sample_368_data_2.txt",
+        "similarity": 99.02
+    },
+    {
+        "sample_id": "369",
+        "data_path_1": "sample_369_data_1.txt",
+        "data_path_2": "sample_369_data_2.txt",
+        "similarity": 99.02
+    },
+    {
+        "sample_id": "370",
+        "data_path_1": "sample_370_data_1.txt",
+        "data_path_2": "sample_370_data_2.txt",
+        "similarity": 99.54
+    },
+    {
+        "sample_id": "371",
+        "data_path_1": "sample_371_data_1.txt",
+        "data_path_2": "sample_371_data_2.txt",
+        "similarity": 99.29
+    },
+    {
+        "sample_id": "372",
+        "data_path_1": "sample_372_data_1.txt",
+        "data_path_2": "sample_372_data_2.txt",
+        "similarity": 80.11
+    },
+    {
+        "sample_id": "373",
+        "data_path_1": "sample_373_data_1.txt",
+        "data_path_2": "sample_373_data_2.txt",
+        "similarity": 99.91
+    },
+    {
+        "sample_id": "374",
+        "data_path_1": "sample_374_data_1.txt",
+        "data_path_2": "sample_374_data_2.txt",
+        "similarity": 99.74
+    },
+    {
+        "sample_id": "375",
+        "data_path_1": "sample_375_data_1.txt",
+        "data_path_2": "sample_375_data_2.txt",
+        "similarity": 99.6
+    },
+    {
+        "sample_id": "376",
+        "data_path_1": "sample_376_data_1.txt",
+        "data_path_2": "sample_376_data_2.txt",
+        "similarity": 77.39
+    },
+    {
+        "sample_id": "377",
+        "data_path_1": "sample_377_data_1.txt",
+        "data_path_2": "sample_377_data_2.txt",
+        "similarity": 99.22
+    },
+    {
+        "sample_id": "378",
+        "data_path_1": "sample_378_data_1.txt",
+        "data_path_2": "sample_378_data_2.txt",
+        "similarity": 92.22
+    },
+    {
+        "sample_id": "379",
+        "data_path_1": "sample_379_data_1.txt",
+        "data_path_2": "sample_379_data_2.txt",
+        "similarity": 70.23
+    },
+    {
+        "sample_id": "380",
+        "data_path_1": "sample_380_data_1.txt",
+        "data_path_2": "sample_380_data_2.txt",
+        "similarity": 70.23
+    },
+    {
+        "sample_id": "381",
+        "data_path_1": "sample_381_data_1.txt",
+        "data_path_2": "sample_381_data_2.txt",
+        "similarity": 99.3
+    },
+    {
+        "sample_id": "382",
+        "data_path_1": "sample_382_data_1.txt",
+        "data_path_2": "sample_382_data_2.txt",
+        "similarity": 62.79
+    },
+    {
+        "sample_id": "383",
+        "data_path_1": "sample_383_data_1.txt",
+        "data_path_2": "sample_383_data_2.txt",
+        "similarity": 42.13
+    },
+    {
+        "sample_id": "384",
+        "data_path_1": "sample_384_data_1.txt",
+        "data_path_2": "sample_384_data_2.txt",
+        "similarity": 99.27
+    },
+    {
+        "sample_id": "385",
+        "data_path_1": "sample_385_data_1.txt",
+        "data_path_2": "sample_385_data_2.txt",
+        "similarity": 74.81
+    },
+    {
+        "sample_id": "386",
+        "data_path_1": "sample_386_data_1.txt",
+        "data_path_2": "sample_386_data_2.txt",
+        "similarity": 92.5
+    },
+    {
+        "sample_id": "387",
+        "data_path_1": "sample_387_data_1.txt",
+        "data_path_2": "sample_387_data_2.txt",
+        "similarity": 99.57
+    },
+    {
+        "sample_id": "388",
+        "data_path_1": "sample_388_data_1.txt",
+        "data_path_2": "sample_388_data_2.txt",
+        "similarity": 53.33
+    },
+    {
+        "sample_id": "389",
+        "data_path_1": "sample_389_data_1.txt",
+        "data_path_2": "sample_389_data_2.txt",
+        "similarity": 99.93
+    },
+    {
+        "sample_id": "390",
+        "data_path_1": "sample_390_data_1.txt",
+        "data_path_2": "sample_390_data_2.txt",
+        "similarity": 99.16
+    },
+    {
+        "sample_id": "391",
+        "data_path_1": "sample_391_data_1.txt",
+        "data_path_2": "sample_391_data_2.txt",
+        "similarity": 75.49
+    },
+    {
+        "sample_id": "392",
+        "data_path_1": "sample_392_data_1.txt",
+        "data_path_2": "sample_392_data_2.txt",
+        "similarity": 72.38
+    },
+    {
+        "sample_id": "393",
+        "data_path_1": "sample_393_data_1.txt",
+        "data_path_2": "sample_393_data_2.txt",
+        "similarity": 81.16
+    },
+    {
+        "sample_id": "394",
+        "data_path_1": "sample_394_data_1.txt",
+        "data_path_2": "sample_394_data_2.txt",
+        "similarity": 78.2
+    },
+    {
+        "sample_id": "395",
+        "data_path_1": "sample_395_data_1.txt",
+        "data_path_2": "sample_395_data_2.txt",
+        "similarity": 80.59
+    },
+    {
+        "sample_id": "396",
+        "data_path_1": "sample_396_data_1.txt",
+        "data_path_2": "sample_396_data_2.txt",
+        "similarity": 99.3
+    },
+    {
+        "sample_id": "397",
+        "data_path_1": "sample_397_data_1.txt",
+        "data_path_2": "sample_397_data_2.txt",
+        "similarity": 99.15
+    },
+    {
+        "sample_id": "398",
+        "data_path_1": "sample_398_data_1.txt",
+        "data_path_2": "sample_398_data_2.txt",
+        "similarity": 93.19
+    },
+    {
+        "sample_id": "399",
+        "data_path_1": "sample_399_data_1.txt",
+        "data_path_2": "sample_399_data_2.txt",
+        "similarity": 95.44
+    },
+    {
+        "sample_id": "400",
+        "data_path_1": "sample_400_data_1.txt",
+        "data_path_2": "sample_400_data_2.txt",
+        "similarity": 82.51
+    },
+    {
+        "sample_id": "401",
+        "data_path_1": "sample_401_data_1.txt",
+        "data_path_2": "sample_401_data_2.txt",
+        "similarity": 66.48
+    },
+    {
+        "sample_id": "402",
+        "data_path_1": "sample_402_data_1.txt",
+        "data_path_2": "sample_402_data_2.txt",
+        "similarity": 99.98
+    },
+    {
+        "sample_id": "403",
+        "data_path_1": "sample_403_data_1.txt",
+        "data_path_2": "sample_403_data_2.txt",
+        "similarity": 99.86
+    },
+    {
+        "sample_id": "404",
+        "data_path_1": "sample_404_data_1.txt",
+        "data_path_2": "sample_404_data_2.txt",
+        "similarity": 99.63
+    },
+    {
+        "sample_id": "405",
+        "data_path_1": "sample_405_data_1.txt",
+        "data_path_2": "sample_405_data_2.txt",
+        "similarity": 99.25
+    },
+    {
+        "sample_id": "406",
+        "data_path_1": "sample_406_data_1.txt",
+        "data_path_2": "sample_406_data_2.txt",
+        "similarity": 98.69
+    },
+    {
+        "sample_id": "407",
+        "data_path_1": "sample_407_data_1.txt",
+        "data_path_2": "sample_407_data_2.txt",
+        "similarity": 90.45
+    },
+    {
+        "sample_id": "408",
+        "data_path_1": "sample_408_data_1.txt",
+        "data_path_2": "sample_408_data_2.txt",
+        "similarity": 78.7
+    },
+    {
+        "sample_id": "409",
+        "data_path_1": "sample_409_data_1.txt",
+        "data_path_2": "sample_409_data_2.txt",
+        "similarity": 67.5
+    },
+    {
+        "sample_id": "410",
+        "data_path_1": "sample_410_data_1.txt",
+        "data_path_2": "sample_410_data_2.txt",
+        "similarity": 99.98
+    },
+    {
+        "sample_id": "411",
+        "data_path_1": "sample_411_data_1.txt",
+        "data_path_2": "sample_411_data_2.txt",
+        "similarity": 99.97
+    },
+    {
+        "sample_id": "412",
+        "data_path_1": "sample_412_data_1.txt",
+        "data_path_2": "sample_412_data_2.txt",
+        "similarity": 92.17
+    },
+    {
+        "sample_id": "413",
+        "data_path_1": "sample_413_data_1.txt",
+        "data_path_2": "sample_413_data_2.txt",
+        "similarity": 92.27
+    },
+    {
+        "sample_id": "414",
+        "data_path_1": "sample_414_data_1.txt",
+        "data_path_2": "sample_414_data_2.txt",
+        "similarity": 92.37
+    },
+    {
+        "sample_id": "415",
+        "data_path_1": "sample_415_data_1.txt",
+        "data_path_2": "sample_415_data_2.txt",
+        "similarity": 94.68
+    },
+    {
+        "sample_id": "416",
+        "data_path_1": "sample_416_data_1.txt",
+        "data_path_2": "sample_416_data_2.txt",
+        "similarity": 88.16
+    },
+    {
+        "sample_id": "417",
+        "data_path_1": "sample_417_data_1.txt",
+        "data_path_2": "sample_417_data_2.txt",
+        "similarity": 85.52
+    },
+    {
+        "sample_id": "418",
+        "data_path_1": "sample_418_data_1.txt",
+        "data_path_2": "sample_418_data_2.txt",
+        "similarity": 78.51
+    },
+    {
+        "sample_id": "419",
+        "data_path_1": "sample_419_data_1.txt",
+        "data_path_2": "sample_419_data_2.txt",
+        "similarity": 69.06
+    },
+    {
+        "sample_id": "420",
+        "data_path_1": "sample_420_data_1.txt",
+        "data_path_2": "sample_420_data_2.txt",
+        "similarity": 70.14
+    },
+    {
+        "sample_id": "421",
+        "data_path_1": "sample_421_data_1.txt",
+        "data_path_2": "sample_421_data_2.txt",
+        "similarity": 99.84
+    },
+    {
+        "sample_id": "422",
+        "data_path_1": "sample_422_data_1.txt",
+        "data_path_2": "sample_422_data_2.txt",
+        "similarity": 81.45
+    },
+    {
+        "sample_id": "423",
+        "data_path_1": "sample_423_data_1.txt",
+        "data_path_2": "sample_423_data_2.txt",
+        "similarity": 98.6
+    },
+    {
+        "sample_id": "424",
+        "data_path_1": "sample_424_data_1.txt",
+        "data_path_2": "sample_424_data_2.txt",
+        "similarity": 91.59
+    },
+    {
+        "sample_id": "425",
+        "data_path_1": "sample_425_data_1.txt",
+        "data_path_2": "sample_425_data_2.txt",
+        "similarity": 91.48
+    },
+    {
+        "sample_id": "426",
+        "data_path_1": "sample_426_data_1.txt",
+        "data_path_2": "sample_426_data_2.txt",
+        "similarity": 99.37
+    },
+    {
+        "sample_id": "427",
+        "data_path_1": "sample_427_data_1.txt",
+        "data_path_2": "sample_427_data_2.txt",
+        "similarity": 85.66
+    },
+    {
+        "sample_id": "428",
+        "data_path_1": "sample_428_data_1.txt",
+        "data_path_2": "sample_428_data_2.txt",
+        "similarity": 87.11
+    },
+    {
+        "sample_id": "429",
+        "data_path_1": "sample_429_data_1.txt",
+        "data_path_2": "sample_429_data_2.txt",
+        "similarity": 80.95
+    },
+    {
+        "sample_id": "430",
+        "data_path_1": "sample_430_data_1.txt",
+        "data_path_2": "sample_430_data_2.txt",
+        "similarity": 86.44
+    },
+    {
+        "sample_id": "431",
+        "data_path_1": "sample_431_data_1.txt",
+        "data_path_2": "sample_431_data_2.txt",
+        "similarity": 80.86
+    },
+    {
+        "sample_id": "432",
+        "data_path_1": "sample_432_data_1.txt",
+        "data_path_2": "sample_432_data_2.txt",
+        "similarity": 75.0
+    },
+    {
+        "sample_id": "433",
+        "data_path_1": "sample_433_data_1.txt",
+        "data_path_2": "sample_433_data_2.txt",
+        "similarity": 63.0
+    },
+    {
+        "sample_id": "434",
+        "data_path_1": "sample_434_data_1.txt",
+        "data_path_2": "sample_434_data_2.txt",
+        "similarity": 74.23
+    },
+    {
+        "sample_id": "435",
+        "data_path_1": "sample_435_data_1.txt",
+        "data_path_2": "sample_435_data_2.txt",
+        "similarity": 92.83
+    },
+    {
+        "sample_id": "436",
+        "data_path_1": "sample_436_data_1.txt",
+        "data_path_2": "sample_436_data_2.txt",
+        "similarity": 85.24
+    },
+    {
+        "sample_id": "437",
+        "data_path_1": "sample_437_data_1.txt",
+        "data_path_2": "sample_437_data_2.txt",
+        "similarity": 82.09
+    },
+    {
+        "sample_id": "438",
+        "data_path_1": "sample_438_data_1.txt",
+        "data_path_2": "sample_438_data_2.txt",
+        "similarity": 48.18
+    },
+    {
+        "sample_id": "439",
+        "data_path_1": "sample_439_data_1.txt",
+        "data_path_2": "sample_439_data_2.txt",
+        "similarity": 74.16
+    },
+    {
+        "sample_id": "440",
+        "data_path_1": "sample_440_data_1.txt",
+        "data_path_2": "sample_440_data_2.txt",
+        "similarity": 99.6
+    },
+    {
+        "sample_id": "441",
+        "data_path_1": "sample_441_data_1.txt",
+        "data_path_2": "sample_441_data_2.txt",
+        "similarity": 99.6
+    },
+    {
+        "sample_id": "442",
+        "data_path_1": "sample_442_data_1.txt",
+        "data_path_2": "sample_442_data_2.txt",
+        "similarity": 99.6
+    },
+    {
+        "sample_id": "443",
+        "data_path_1": "sample_443_data_1.txt",
+        "data_path_2": "sample_443_data_2.txt",
+        "similarity": 99.6
+    },
+    {
+        "sample_id": "444",
+        "data_path_1": "sample_444_data_1.txt",
+        "data_path_2": "sample_444_data_2.txt",
+        "similarity": 99.6
+    },
+    {
+        "sample_id": "445",
+        "data_path_1": "sample_445_data_1.txt",
+        "data_path_2": "sample_445_data_2.txt",
+        "similarity": 99.6
+    },
+    {
+        "sample_id": "446",
+        "data_path_1": "sample_446_data_1.txt",
+        "data_path_2": "sample_446_data_2.txt",
+        "similarity": 99.37
+    },
+    {
+        "sample_id": "447",
+        "data_path_1": "sample_447_data_1.txt",
+        "data_path_2": "sample_447_data_2.txt",
+        "similarity": 99.31
+    },
+    {
+        "sample_id": "448",
+        "data_path_1": "sample_448_data_1.txt",
+        "data_path_2": "sample_448_data_2.txt",
+        "similarity": 89.85
+    },
+    {
+        "sample_id": "449",
+        "data_path_1": "sample_449_data_1.txt",
+        "data_path_2": "sample_449_data_2.txt",
+        "similarity": 93.1
+    },
+    {
+        "sample_id": "450",
+        "data_path_1": "sample_450_data_1.txt",
+        "data_path_2": "sample_450_data_2.txt",
+        "similarity": 89.03
+    },
+    {
+        "sample_id": "451",
+        "data_path_1": "sample_451_data_1.txt",
+        "data_path_2": "sample_451_data_2.txt",
+        "similarity": 79.04
+    },
+    {
+        "sample_id": "452",
+        "data_path_1": "sample_452_data_1.txt",
+        "data_path_2": "sample_452_data_2.txt",
+        "similarity": 82.83
+    },
+    {
+        "sample_id": "453",
+        "data_path_1": "sample_453_data_1.txt",
+        "data_path_2": "sample_453_data_2.txt",
+        "similarity": 72.46
+    },
+    {
+        "sample_id": "454",
+        "data_path_1": "sample_454_data_1.txt",
+        "data_path_2": "sample_454_data_2.txt",
+        "similarity": 78.9
+    },
+    {
+        "sample_id": "455",
+        "data_path_1": "sample_455_data_1.txt",
+        "data_path_2": "sample_455_data_2.txt",
+        "similarity": 78.56
+    },
+    {
+        "sample_id": "456",
+        "data_path_1": "sample_456_data_1.txt",
+        "data_path_2": "sample_456_data_2.txt",
+        "similarity": 75.93
+    },
+    {
+        "sample_id": "457",
+        "data_path_1": "sample_457_data_1.txt",
+        "data_path_2": "sample_457_data_2.txt",
+        "similarity": 75.34
+    },
+    {
+        "sample_id": "458",
+        "data_path_1": "sample_458_data_1.txt",
+        "data_path_2": "sample_458_data_2.txt",
+        "similarity": 74.62
+    },
+    {
+        "sample_id": "459",
+        "data_path_1": "sample_459_data_1.txt",
+        "data_path_2": "sample_459_data_2.txt",
+        "similarity": 99.35
+    },
+    {
+        "sample_id": "460",
+        "data_path_1": "sample_460_data_1.txt",
+        "data_path_2": "sample_460_data_2.txt",
+        "similarity": 99.35
+    },
+    {
+        "sample_id": "461",
+        "data_path_1": "sample_461_data_1.txt",
+        "data_path_2": "sample_461_data_2.txt",
+        "similarity": 99.31
+    },
+    {
+        "sample_id": "462",
+        "data_path_1": "sample_462_data_1.txt",
+        "data_path_2": "sample_462_data_2.txt",
+        "similarity": 99.31
+    },
+    {
+        "sample_id": "463",
+        "data_path_1": "sample_463_data_1.txt",
+        "data_path_2": "sample_463_data_2.txt",
+        "similarity": 99.12
+    },
+    {
+        "sample_id": "464",
+        "data_path_1": "sample_464_data_1.txt",
+        "data_path_2": "sample_464_data_2.txt",
+        "similarity": 99.67
+    },
+    {
+        "sample_id": "465",
+        "data_path_1": "sample_465_data_1.txt",
+        "data_path_2": "sample_465_data_2.txt",
+        "similarity": 89.58
+    },
+    {
+        "sample_id": "466",
+        "data_path_1": "sample_466_data_1.txt",
+        "data_path_2": "sample_466_data_2.txt",
+        "similarity": 89.13
+    },
+    {
+        "sample_id": "467",
+        "data_path_1": "sample_467_data_1.txt",
+        "data_path_2": "sample_467_data_2.txt",
+        "similarity": 54.39
+    },
+    {
+        "sample_id": "468",
+        "data_path_1": "sample_468_data_1.txt",
+        "data_path_2": "sample_468_data_2.txt",
+        "similarity": 99.5
+    },
+    {
+        "sample_id": "469",
+        "data_path_1": "sample_469_data_1.txt",
+        "data_path_2": "sample_469_data_2.txt",
+        "similarity": 99.08
+    },
+    {
+        "sample_id": "470",
+        "data_path_1": "sample_470_data_1.txt",
+        "data_path_2": "sample_470_data_2.txt",
+        "similarity": 89.15
+    },
+    {
+        "sample_id": "471",
+        "data_path_1": "sample_471_data_1.txt",
+        "data_path_2": "sample_471_data_2.txt",
+        "similarity": 55.42
+    },
+    {
+        "sample_id": "472",
+        "data_path_1": "sample_472_data_1.txt",
+        "data_path_2": "sample_472_data_2.txt",
+        "similarity": 81.58
+    },
+    {
+        "sample_id": "473",
+        "data_path_1": "sample_473_data_1.txt",
+        "data_path_2": "sample_473_data_2.txt",
+        "similarity": 93.07
+    },
+    {
+        "sample_id": "474",
+        "data_path_1": "sample_474_data_1.txt",
+        "data_path_2": "sample_474_data_2.txt",
+        "similarity": 97.05
+    },
+    {
+        "sample_id": "475",
+        "data_path_1": "sample_475_data_1.txt",
+        "data_path_2": "sample_475_data_2.txt",
+        "similarity": 69.85
+    },
+    {
+        "sample_id": "476",
+        "data_path_1": "sample_476_data_1.txt",
+        "data_path_2": "sample_476_data_2.txt",
+        "similarity": 86.24
+    },
+    {
+        "sample_id": "477",
+        "data_path_1": "sample_477_data_1.txt",
+        "data_path_2": "sample_477_data_2.txt",
+        "similarity": 97.66
+    },
+    {
+        "sample_id": "478",
+        "data_path_1": "sample_478_data_1.txt",
+        "data_path_2": "sample_478_data_2.txt",
+        "similarity": 97.02
+    },
+    {
+        "sample_id": "479",
+        "data_path_1": "sample_479_data_1.txt",
+        "data_path_2": "sample_479_data_2.txt",
+        "similarity": 92.11
+    },
+    {
+        "sample_id": "480",
+        "data_path_1": "sample_480_data_1.txt",
+        "data_path_2": "sample_480_data_2.txt",
+        "similarity": 60.62
+    },
+    {
+        "sample_id": "481",
+        "data_path_1": "sample_481_data_1.txt",
+        "data_path_2": "sample_481_data_2.txt",
+        "similarity": 60.22
+    },
+    {
+        "sample_id": "482",
+        "data_path_1": "sample_482_data_1.txt",
+        "data_path_2": "sample_482_data_2.txt",
+        "similarity": 97.79
+    },
+    {
+        "sample_id": "483",
+        "data_path_1": "sample_483_data_1.txt",
+        "data_path_2": "sample_483_data_2.txt",
+        "similarity": 99.48
+    },
+    {
+        "sample_id": "484",
+        "data_path_1": "sample_484_data_1.txt",
+        "data_path_2": "sample_484_data_2.txt",
+        "similarity": 99.25
+    },
+    {
+        "sample_id": "485",
+        "data_path_1": "sample_485_data_1.txt",
+        "data_path_2": "sample_485_data_2.txt",
+        "similarity": 89.75
+    },
+    {
+        "sample_id": "486",
+        "data_path_1": "sample_486_data_1.txt",
+        "data_path_2": "sample_486_data_2.txt",
+        "similarity": 89.97
+    },
+    {
+        "sample_id": "487",
+        "data_path_1": "sample_487_data_1.txt",
+        "data_path_2": "sample_487_data_2.txt",
+        "similarity": 85.39
+    },
+    {
+        "sample_id": "488",
+        "data_path_1": "sample_488_data_1.txt",
+        "data_path_2": "sample_488_data_2.txt",
+        "similarity": 80.65
+    },
+    {
+        "sample_id": "489",
+        "data_path_1": "sample_489_data_1.txt",
+        "data_path_2": "sample_489_data_2.txt",
+        "similarity": 89.8
+    },
+    {
+        "sample_id": "490",
+        "data_path_1": "sample_490_data_1.txt",
+        "data_path_2": "sample_490_data_2.txt",
+        "similarity": 89.8
+    },
+    {
+        "sample_id": "491",
+        "data_path_1": "sample_491_data_1.txt",
+        "data_path_2": "sample_491_data_2.txt",
+        "similarity": 95.51
+    },
+    {
+        "sample_id": "492",
+        "data_path_1": "sample_492_data_1.txt",
+        "data_path_2": "sample_492_data_2.txt",
+        "similarity": 98.28
+    },
+    {
+        "sample_id": "493",
+        "data_path_1": "sample_493_data_1.txt",
+        "data_path_2": "sample_493_data_2.txt",
+        "similarity": 98.91
+    },
+    {
+        "sample_id": "494",
+        "data_path_1": "sample_494_data_1.txt",
+        "data_path_2": "sample_494_data_2.txt",
+        "similarity": 72.83
+    },
+    {
+        "sample_id": "495",
+        "data_path_1": "sample_495_data_1.txt",
+        "data_path_2": "sample_495_data_2.txt",
+        "similarity": 88.83
+    },
+    {
+        "sample_id": "496",
+        "data_path_1": "sample_496_data_1.txt",
+        "data_path_2": "sample_496_data_2.txt",
+        "similarity": 89.83
+    },
+    {
+        "sample_id": "497",
+        "data_path_1": "sample_497_data_1.txt",
+        "data_path_2": "sample_497_data_2.txt",
+        "similarity": 90.23
+    },
+    {
+        "sample_id": "498",
+        "data_path_1": "sample_498_data_1.txt",
+        "data_path_2": "sample_498_data_2.txt",
+        "similarity": 79.02
+    },
+    {
+        "sample_id": "499",
+        "data_path_1": "sample_499_data_1.txt",
+        "data_path_2": "sample_499_data_2.txt",
+        "similarity": 98.3
+    },
+    {
+        "sample_id": "500",
+        "data_path_1": "sample_500_data_1.txt",
+        "data_path_2": "sample_500_data_2.txt",
+        "similarity": 61.23
+    },
+    {
+        "sample_id": "501",
+        "data_path_1": "sample_501_data_1.txt",
+        "data_path_2": "sample_501_data_2.txt",
+        "similarity": 61.1
+    }
+]

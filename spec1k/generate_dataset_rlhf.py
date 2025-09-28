@@ -35,7 +35,7 @@ def generate_parquet_dataset(
         print("Metadata file not found.")
         return
 
-    with open(json_file_path, 'r') as f:
+    with open(json_file_path, 'r', encoding='utf-8-sig') as f:
         metadata = json.load(f)
 
     if not isinstance(metadata, list):
@@ -95,13 +95,18 @@ def generate_parquet_dataset(
                 fig_path_2 = f"file://{fig_path_2}"
                 data_source = "daashuai/spec1k"
                 # 字典传递参数
-                params = {
+                params_ = {
                     "fig_path_1": fig_path_1,
                     "fig_path_2": fig_path_2,
                     "peaks_1": top_peaks_1,
                     "peaks_2": top_peaks_2,
                     "peaks_rule_1": peaks_list_rule_1,
                     "peaks_rule_2": peaks_list_rule_2,
+                    "similarity_rule": similarity_rule
+                }
+                params = {
+                    "fig_path_1": fig_path_1,
+                    "fig_path_2": fig_path_2,
                     "similarity_rule": similarity_rule
                 }
                 template_2 = template_2.format(**params)
@@ -128,6 +133,7 @@ def generate_parquet_dataset(
                     "reward_model": {"style": "rule", "ground_truth": answer},
                     "extra_info": {
                         "sample_id": entry["sample_id"],
+                        "adjusted_type": entry["adjusted_type"]
                     },
                 }
                 records.append(record)
@@ -217,16 +223,17 @@ if __name__ == "__main__":
 <expert_reason_chain> [这里写下专家推理链] </expert_reason_chain>
 <answer> [这里写下修正后的相似度] </answer> """ 
 
-    template__00 = """你是三维荧光光谱相似度计算专家，需根据提供的视觉信息和峰值数据，
+    template_1 = """你是三维荧光光谱相似度计算专家，需根据提供的视觉信息和峰值数据，
     进行推理并修正规则相似度。请严格按四步推理：1. 视觉分析：核心峰的位置、强度、峰形差异（多峰/少
 峰/偏移等）2. 峰值验证：结合初始峰值和规则峰值以及视觉信息，分析规则相似度合理性3. 修正决策：判
 断是否需要修正及理由4. 计算结果：展示修正过程，给出最终相似度（保留两位小数）
 
-我将给你两个水质三维荧光样本,输出格式如下： 
+我将给你两个水质三维荧光样本的视觉信息，峰值数据，规则相似度,请进行推理并修正规则相
+似度，输出格式如下： 
 <expert_reason_chain> [这里写下专家推理链] </expert_reason_chain>
 <answer> XX.XX  </answer> """ 
 
-    template_1 = """你是三维荧光光谱相似度计算专家，需根据两个三维荧光样本的视觉信息
+    template_2 = """你是三维荧光光谱相似度计算专家，需根据两个三维荧光样本的视觉信息
 和峰值数据以及规则相似度进行推理并修正规则相似度。规则相似度是依据规则峰值信息进行峰
 匹配计算，但是规则峰值会受少峰，多峰，偏移, 浓度异常，峰型差异等因素的影响, 无法充分
 的考虑一些边界案例, 计算出的规则相似度有可能出现偏差，因此我们需要依据视觉信息和初始
@@ -243,7 +250,7 @@ if __name__ == "__main__":
 <answer> XX.XX </answer> """ 
 
 
-    template_2 = """输入:视觉信息: fig_right = <image>{fig_path_1} fig_left = <image>
+    template_3 = """输入:视觉信息: fig_right = <image>{fig_path_1} fig_left = <image>
     {fig_path_2}初始峰值信息: peaks_right_origin = {peaks_1} peaks_left_origin
     = {peaks_2}规则峰值信息: peaks_right_rule = {peaks_rule_1} peaks_left_rule
     = {peaks_rule_2}规则相似度: rule_similarity = {similarity_rule}
@@ -251,8 +258,29 @@ if __name__ == "__main__":
     输出:
 
     """
+
+    template_4 = """你是三维荧光光谱相似度计算专家，我将给你两个水质三维荧光样本的视
+    觉信息和相似度,请判断是否需要对相似度进行修正，请严格按四步推理：1. 视觉分析：核
+    心峰的位置、强度、峰形差异（多峰/少峰/偏移等）2. 结合视觉信息，分析相似度合理性
+    3. 修正决策：判断是否需要修正及理由4. 计算结果：展示修正过程，给出最终相似度（保
+    留两位小数)。 输出格式如下：
+    <is_adjusted>(True or False) </is_adjusted>
+    <visual_observation>(这里写下视觉观察信息)<visual_observation>
+    <reason>(这里写下是否决定是否进行调整的依据，以及调整的计算过程)<reason>
+    <similarity> XX.XX  </similarity>
+    """ 
+
+    template_5 = """输入:
+    视觉信息:
+        fig_right = <image>{fig_path_1} 
+        fig_left = <image>{fig_path_2}
+    规则相似度: rule_similarity = {similarity_rule}
+    """
+
+
+
     generate_parquet_dataset(train_ratio=0.7, val_ratio=0.2, test_ratio=0.1,
-                             template_1=template_1, template_2 = template_2)
+                             template_1=template_4, template_2 = template_5)
 
 # change directory in root work directory
 # python -m spec1k.generate_dataset_rlhf

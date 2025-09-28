@@ -145,7 +145,7 @@ def plot(file_path, points_matrix, peaks):
     excitation_wavelengths = np.linspace(220, 600, 77)  # Y轴
     emission_wavelengths = np.linspace(230, 650, 85)    # X轴
 
-    plt.figure(figsize=(8, 5), dpi=120)  # 加宽一点，给右侧文字留空间
+    plt.figure(figsize=(5.5, 3.5), dpi=120)  # 加宽一点，给右侧文字留空间
     
     # 4. 伪彩色底图
     im = plt.pcolormesh(

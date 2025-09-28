@@ -160,6 +160,8 @@ class RLHFDataset(Dataset):
                     images = [process_image(image) for image in doc[image_key]] if image_key in doc else None
                     videos = [process_video(video) for video in doc[video_key]] if video_key in doc else None
 
+
+                    # tmp = len(processor(text=[raw_prompt], images=images, videos=videos)["input_ids"][0])
                     return len(processor(text=[raw_prompt], images=images, videos=videos)["input_ids"][0])
 
             else:

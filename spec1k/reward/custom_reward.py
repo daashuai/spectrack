@@ -21,13 +21,14 @@ import re
 
 
 def format_reward(predict: str) -> float:
-    pattern = re.compile(r"<expert_reason_chain>(.*?)</expert_reason_chain>(.*?)<answer>(.*?)</answer>", re.DOTALL)
+    # pattern = re.compile(r"<expert_reason_chain>(.*?)</expert_reason_chain>(.*?)<answer>(.*?)</answer>", re.DOTALL)
+    pattern = re.compile(r"<is_adjusted>(.*?)</is_adjusted>(.*?)<visual_observation>(.*?)</visual_observation>(.*?)<reason>(.*?)</reason>(.*?)<similarity>(.*?)</similarity>", re.DOTALL)
     format_match = re.fullmatch(pattern, predict)
     return 1.0 if format_match else 0.0
 
 
 def extract_answer(text: str) -> str:
-    match = re.search(r"<answer>(.*?)</answer>", text, re.DOTALL)
+    match = re.search(r"<similarity>(.*?)</similarity>", text, re.DOTALL)
     if match:
         return match.group(1).strip()
 
@@ -90,6 +91,7 @@ def accuracy_reward(
             raise ValueError(f"Unknown method: {method}")
 
         return acc_1, acc_2, acc_5, diff, reward
+
     except Exception as e:
         # print(f"Error in compute_reward: {e}", file=sys.stderr)
         target = float(target)

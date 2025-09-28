@@ -1,22 +1,22 @@
 set -x
 ENGINE=${1:-vllm}
 HF_ENDPOINT="https://hf-mirror.com"
-PROJECT_DIR="/home/ludashuai/spectrack"
-export CUDA_VISIBLE_DEVICES=0,1,3,4
+PROJECT_DIR="/home/renxinlin/spectrack"
+export CUDA_VISIBLE_DEVICES=4,5,6,7
 # If you are using vllm<=0.6.3, you might need to set the following environment variable to avoid bugs:
 # export VLLM_ATTENTION_BACKEND=XFORMERS
 
 python3 -m verl.trainer.main_ppo \
     algorithm.adv_estimator=grpo \
-    data.train_files=$PROJECT_DIR/spec8k/dataset/train.parquet \
-    data.val_files=$PROJECT_DIR/spec8k/dataset/test.parquet \
+    data.train_files=$PROJECT_DIR/spec1k/dataset/rlhf/train.parquet \
+    data.val_files=$PROJECT_DIR/spec1k/dataset/rlhf/test.parquet \
     data.train_batch_size=16\
-    data.max_prompt_length=3072\
-    data.max_response_length=2048\
+    data.max_prompt_length=1024\
+    data.max_response_length=512\
     data.filter_overlong_prompts=True \
     data.truncation='error' \
     data.image_key=images \
-    custom_reward_function.path=$PROJECT_DIR/spec8k/reward/custom_reward.py \
+    custom_reward_function.path=$PROJECT_DIR/spec1k/reward/custom_reward.py \
     custom_reward_function.name=compute_score \
     actor_rollout_ref.model.path=Qwen/Qwen2.5-VL-7B-Instruct \
     actor_rollout_ref.actor.optim.lr=1e-6 \
@@ -44,9 +44,9 @@ python3 -m verl.trainer.main_ppo \
     trainer.critic_warmup=0 \
     trainer.logger='["tensorboard"]' \
     trainer.project_name='specktrack' \
-    trainer.experiment_name='qwen2_5_vl_3b' \
+    trainer.experiment_name='qwen2_5_vl_7b' \
     trainer.n_gpus_per_node=4 \
     trainer.nnodes=1 \
-    trainer.save_freq=100 \
+    trainer.save_freq=1000\
     trainer.test_freq=10 \
     trainer.total_epochs=15 $@

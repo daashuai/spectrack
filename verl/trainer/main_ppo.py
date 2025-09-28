@@ -29,6 +29,8 @@ from verl.trainer.ppo.reward import load_reward_manager
 from verl.utils.device import is_cuda_available
 from verl.utils.import_utils import load_extern_type
 
+from debug import debugger
+debugger(debug=False)
 
 @hydra.main(config_path="config", config_name="ppo_trainer", version_base=None)
 def main(config):
@@ -206,14 +208,12 @@ class TaskRunner:
                    for setting up and running the PPO training process.
         """
         # Print the initial configuration. `resolve=True` will evaluate symbolic values.
-        from debug import debugger
         from pprint import pprint
 
         from omegaconf import OmegaConf
 
         from verl.utils.fs import copy_to_local
 
-        debugger(debug=True)
         print(f"TaskRunner hostname: {socket.gethostname()}, PID: {os.getpid()}")
         pprint(OmegaConf.to_container(config, resolve=True))
         OmegaConf.resolve(config)
