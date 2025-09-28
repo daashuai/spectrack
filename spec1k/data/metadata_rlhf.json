@@ -6607,6 +6607,7 @@
         "sample_id": "953",
         "data_path_1": "sample_953_data_1.txt",
         "data_path_2": "sample_953_data_2.txt",
+        "adjusted_type":5,
         "similarity": 91.64
     },
     {
